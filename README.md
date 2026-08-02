@@ -1,1 +1,3 @@
 # modified-zsr-feed
+
+- transform/help/zoznam-stanic-a-zastavok.csv - cached old version of [Zoznam staníc a zastávok (.csv) dataset by ZSR, from 16 July 2025](https://data.slovensko.sk/datasety/55521464-1d29-4af1-b84c-895cd564ed48) ([archive.org](https://web.archive.org/web/20251119023249/https://data.slovensko.sk/datasety/55521464-1d29-4af1-b84c-895cd564ed48)). Now the dataset gives a 404 error. Would the error resolve, we would automatically fetch this

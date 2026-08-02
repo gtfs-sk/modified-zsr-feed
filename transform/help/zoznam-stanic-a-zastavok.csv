@@ -1,0 +1,923 @@
+Názov stanice,Cestovný poriadok,Bezbariérový prístup
+Abovce,160,áno
+Alekšince,141,
+Andač,141,
+Babiná,153,
+Bacúch,172,
+Bajč,135,áno
+Balvany,136,
+Banská Belá,154,
+Banská Belá zastávka,154,
+Banská Bystrica,"170,172",áno
+Banská Bystrica mesto,170,áno
+Banská Štiavnica,154,
+Banský Studenec,154,
+Barca,"160,169",
+Bardejov,194,áno
+Bartošova Lehôtka,171,
+Bartošovce,194,áno
+Behynce,142,
+Belina,164,
+Beluša,120,
+Belá nad Cirochou,196,
+Bernolákovo,130,áno
+Betliar,167,
+Beňuš,172,
+Beša,150,
+Biel,190,áno
+Bielovce,153,
+Biskupová,142,
+Blhovce,160,
+Bodza,131,
+Bohdanovce,190,
+Bohúňovo,160,áno
+Boleráz,116,áno
+Bolešov,124,
+Borský Mikuláš,116,áno
+Borčice,124,
+Borša,190,áno
+Bošany,140,
+Branč,140,áno
+Bratislava hlavná stanica,"100,110,120,130,132",áno
+Bratislava predmestie,"120,130",
+Bratislava ústredná nákladná stanica,132,
+Bratislava-Lamač,"100,110",áno
+Bratislava-Nové Mesto,"120,130,131,132",áno
+Bratislava-Petržalka,"101,132",áno
+Bratislava-Rača,120,áno
+Bratislava-Vajnory,130,áno
+Bratislava-Vinohrady,"120,130",
+Bratislava-Vrakuňa,131,
+Bratislava-Železná studienka,110,
+Brekov,"191,193",áno
+Brestovany,120,áno
+Brestovec,121,áno
+Breziny,153,
+Breznička,"162,163",áno
+Brezno,"172,174",áno
+Brezno mesto,"172,174",áno
+Brezno-Halny,"172,174",
+Brezno-Rohozná,174,
+Brezová pod Bradlom,117,
+Brezová pod Bradlom zastávka,117,
+Brodno,127,
+Brodské,110,
+Brunovce,120,áno
+Brusno kúpele,172,áno
+Budkovce,195,
+Bujakovo zastávka,172,
+Buková,116,áno
+Bušovce,185,áno
+Bystrany na Spiši,187,áno
+Bystričany,140,áno
+Bystré,193,áno
+Bytča,120,
+Bytčica,126,áno
+Bzenica,150,
+Bziny,181,áno
+Bzovská Lehôtka,153,
+Bzovík,153,
+Báhoň,120,áno
+Bánov,"140,150,151",
+Bánovce nad Bebravou,143,áno
+Bánovce nad Ondavou,"191,195",
+Bíňa,152,
+Bíňa zastávka,152,áno
+Bíňovce,116,áno
+Cerová-Lieskové,116,áno
+Cestice,160,áno
+Chmeľnica,185,áno
+Chotín,135,áno
+Chrabrany,140,
+Chrasť nad Hornádom,180,áno
+Chrenovec,145,áno
+Chvatimech,172,áno
+Chynorany,"140,143",áno
+Cinobaňa,163,
+Cífer,120,áno
+Danielov dom,183,
+Debraď,168,
+Dedinky,173,áno
+Demjata,194,
+Demjata obec,194,áno
+Detva,160,áno
+Devičie,153,
+Devínska Nová Ves,"100,110",áno
+Devínske Jazero,110,áno
+Diakovce,134,
+Diviaky,"170,171",áno
+Dlhá nad Oravou,181,
+Dlhé nad Cirochou,196,
+Dlhé nad Cirochou obec,196,áno
+Dobrá,190,áno
+Dobrá Niva,153,
+Dobrá Niva zastávka,153,
+Dobšinská Ľadová Jaskyňa,173,áno
+Dobšiná,167,
+Dohňany,125,
+Dolná Seč,152,áno
+Dolné Hámre,150,
+Dolné Kočkovce,120,
+Dolné Krškany,140,áno
+Dolné Naštice,143,
+Dolný Bar,131,
+Dolný Harmanec,170,
+Dolný Hričov,120,
+Dolný Kubín,181,áno
+Dolný Kubín zastávka,181,áno
+Dolný Smokovec,183,áno
+Dolný Štál,131,
+Domaníky,153,
+Drahovce zastávka,120,áno
+Drahňov,195,
+Dražovce,141,
+Drienovec,160,
+Drienovská Nová Ves,188,áno
+Drienovská Nová Ves obec,188,áno
+Dubnica nad Váhom,120,áno
+Dubovec,160,
+Dubová,172,
+Dudince,153,
+Dulov,124,
+Dunajov,127,áno
+Dunajská Streda,131,áno
+Dvorianky,192,
+Dvorníky,153,
+Dvorníky-Zádiel,160,áno
+Dvory nad Žitavou,130,áno
+Dyčka,151,
+Dúbravka,195,
+Fiľakovo,"160,164",
+Fiľakovo zastávka,160,
+Forbasy,185,áno
+Fulianka,194,áno
+Galanta,"130,133",áno
+Gašparovo,172,
+Gbelce,130,
+Gbely,114,
+Gbely zastávka,114,
+Gelnica,173,áno
+Gelnica mesto,173,áno
+Gelnica zastávka,173,áno
+Gemer,160,
+Gemerská Hôrka,160,
+Gemerská Hôrka zastávka,165,áno
+Gemerská Panica,160,áno
+Gemerská Poloma,167,
+Gemerský Milhosť,165,áno
+Geča,169,
+Gortva,160,áno
+Gočovo,167,
+Gyňov,169,áno
+Gánovce,180,
+Gáň,133,áno
+Hadovce,136,
+Hajnáčka,160,
+Handlová,145,áno
+Haniska pri Košiciach,160,áno
+Haniska pri Prešove,188,áno
+Hankovce,191,
+Hanušovce nad Topľou,193,
+Hanušovce nad Topľou mesto,193,áno
+Harichovce,186,
+Harmanec,170,
+Harmanec jaskyňa,170,
+Hatalov,195,
+Hačava,174,
+Hačava skálie,174,
+Hažín nad Cirochou,196,
+Helcmanovce,173,áno
+Henckovce,167,
+Hencovce,193,
+Hertník,194,
+Heľpa,172,
+Hlboké,116,
+Hlinné,193,áno
+Hliník nad Hronom,150,
+Hlohovec,141,áno
+Hnilec,173,áno
+Hnúšťa,174,
+Hnúšťa zastávka,174,
+Hodejov,160,
+Holiša,160,
+Holíč nad Moravou,"114,115",áno
+Hontianske Nemce,153,
+Hontianske Tesáre,153,
+Horná Lehota,181,
+Horná Streda,120,áno
+Horná Zlatná,131,
+Horná Štubňa,"145,171",áno
+Horná Štubňa obec,170,
+Horná Štubňa zastávka,171,
+Horné Ozorovce,143,áno
+Horné Srnie,123,
+Horný Hričov,120,
+Horný Pial,150,áno
+Horný Smokovec,184,áno
+Horovce,124,
+Hrabovec nad Laborcom,191,
+Hrachovište,121,áno
+Hrachovo,174,áno
+Hradište pod Vrátnom,117,
+Hrboltová,180,áno
+Hrhov,160,áno
+Hrinište,191,
+Hrkovce,153,
+Hromoš,185,áno
+Hronovce,152,áno
+Hronsek,170,áno
+Hronská Dúbrava,"150,154,171",áno
+Hronské Kľačany,150,áno
+Hronský Beňadik,150,
+Hucín,165,áno
+Hul,150,
+Humenné,"191,193,196",áno
+Humenné mesto,"191,196",áno
+Huncovce,185,áno
+Hurbanovo,135,áno
+Hutníky,160,
+Ilava,120,áno
+Ipeľský Sokolec,153,
+Istebné,181,áno
+Ivanka pri Dunaji,130,áno
+Ivanka pri Nitre,140,áno
+Jablonica,"116,117",áno
+Jablonica obec,117,
+Jablonov nad Turňou,160,
+Jablonové,112,
+Jaklovce,173,áno
+Jalná,150,
+Jalovec,145,áno
+Jasov,168,áno
+Jastrabá,171,
+Jatov,130,áno
+Jazernica,170,áno
+Jelenec,141,
+Jelšava,165,áno
+Jelšavská Teplica,165,áno
+Jelšovce,140,
+Jesenské,"160,174",
+Jesenské zastávka,174,
+Jesenské údolie,150,
+Jovice,160,áno
+Kalinovo,162,áno
+Kalná nad Hronom,150,áno
+Kalonda,161,áno
+Kalša,190,áno
+Kamanová,140,
+Kamenica nad Cirochou,196,áno
+Kamenica nad Cirochou dvor,196,áno
+Kameničná,136,
+Kamenný Most nad Hronom,152,
+Kamenín,152,áno
+Kapince,142,
+Kapušany pri Prešove,"193,194",
+Katarínska Huta,163,
+Katúň,187,áno
+Kaňová,122,
+Kechnec,169,áno
+Kendice,188,áno
+Kežmarok,185,áno
+Kežmarok zastávka,185,áno
+Kežmarok-Pradiareň,185,áno
+Kluknava,180,
+Kláštor pod Znievom,170,áno
+Klčovany,116,áno
+Kmeťovo,151,
+Kochanovce,191,áno
+Kociha,174,
+Kokava nad Rimavicou,162,áno
+Kokava nad Rimavicou-Liešnica,162,áno
+Kolárovo,136,
+Komjatice,140,
+Komárany,193,
+Komárno,"131,135,136",áno
+Komárno závody,131,
+Komárno škola,136,
+Koniarovce,140,
+Konská pri Rajci,126,
+Kopčany,114,
+Kostiviarska,170,
+Kostolná-Zariečie,120,áno
+Kostoľany nad Hornádom,180,áno
+Kozelník,154,
+Kozárovce,"141,150",áno
+Kozárovce zastávka,141,
+Koš,140,áno
+Košeca,120,áno
+Košice,"120,160,169,180,190",áno
+Košice predmestie,"160,169,190",áno
+Koškovce,191,áno
+Košťany nad Turcom,170,áno
+Kraľovany,"120,180,181",áno
+Kraľovany zastávka,181,áno
+Kremnica,171,
+Kremnické Bane,171,
+Krivany,188,
+Krivá,181,
+Kriváň,160,áno
+Krišovská Liesková,195,
+Križovany nad Dudváhom,133,áno
+Krompachy,180,áno
+Krpeľany,180,áno
+Krupina,153,
+Krupina predmestie,153,
+Krušovce,140,
+Krásna Hôrka,181,
+Krásna nad Hornádom,190,áno
+Krásno nad Kysucou,127,áno
+Krásny Brod,191,
+Kráľka,136,
+Kráľova Lehota,180,
+Kuchyňa,112,
+Kuklov,116,áno
+Kunova Teplica,166,
+Kuzmice,190,áno
+Kvetoslavov,131,áno
+Kvetoslavov zastávka,131,áno
+Kysak,"120,180,188",áno
+Kysucké Nové Mesto,127,áno
+Kátov,114,
+Kútniky,131,
+Kúty,"110,114,116",áno
+Kľačany,141,áno
+Kľače,126,áno
+Kľušov,194,
+Lada,193,
+Ladce,120,áno
+Ladice,141,
+Lastovce,191,áno
+Laškovce,191,
+Lednické Rovne,124,
+Lehnice,131,áno
+Lenartovce,160,
+Leopoldov,"120,133,141",áno
+Leopoldov zastávka,141,áno
+Letanovce,180,áno
+Levice,"150,152",áno
+Levoča,186,áno
+Lietavská Lúčka,126,áno
+Likier,174,
+Lipany,188,áno
+Lipníky,193,áno
+Lipovník,160,áno
+Liptovská Teplá,180,áno
+Liptovské Vlachy,180,áno
+Liptovský Hrádok,180,
+Liptovský Mikuláš,"120,180",áno
+Lisková zastávka,180,
+Ličartovce,188,áno
+Lok,150,
+Lopej,172,áno
+Lovinobaňa,160,
+Lovinobaňa zastávka,160,
+Lozorno,112,
+Lubeník,165,áno
+Ludanice,140,
+Lučatín,172,
+Lučenec,"160,161,162",áno
+Lučivná,180,áno
+Lužianky,"140,141",áno
+Lysá pod Makytou,125,
+Lábske Jazero zastávka,113,
+Lúky pod Makytou,125,áno
+Lúky pod Makytou št. hr. ? Olomouc,TN,
+Lúčnica nad Žitavou,151,
+Madunice,120,áno
+Makov,128,áno
+Malacky,110,áno
+Malá Lodina,180,áno
+Malá Maňa,151,
+Malá Paka,131,áno
+Malé Ripňany,142,
+Malé Zálužie,142,
+Malý Čepčín,170,áno
+Margecany,"120,173,180",áno
+Margecany zastávka,180,áno
+Markušovce,180,áno
+Martin,170,
+Martinová,151,
+Matejovce nad Hornádom,180,áno
+Matejovce pri Poprade,185,áno
+Maňa,151,
+Maňa zastávka,151,
+Maša,163,
+Medzev,168,
+Medzibrod,172,
+Medzibrodie nad Oravou,181,áno
+Medzilaborce,191,áno
+Medzilaborce mesto,191,
+Melčice,120,áno
+Michal na Ostrove,131,áno
+Michal nad Žitavou,151,
+Michalovce,191,áno
+Michalovce zastávka,191,
+Michalová,174,
+Michalová zastávka,174,
+Michaľany,"190,191",áno
+Mikušovce,161,áno
+Milhostov,192,
+Miloslavov,131,áno
+Mlynky,173,áno
+Mlynky zastávka,173,
+Mlynárce,140,áno
+Mládzovo,163,
+Mníchova Lehota,143,
+Mníšek nad Hnilcom,173,áno
+Modra nad Cirochou,196,áno
+Mokrance,160,áno
+Mokraď,181,áno
+Mokrá Lúka,165,áno
+Moldava nad Bodvou,"160,168",áno
+Moldava nad Bodvou mesto,168,
+Monastyr,191,áno
+Moravský Svätý Ján,110,áno
+Muránska Dlhá Lúka,165,áno
+Muráň,165,áno
+Mužla,130,
+Myjava,121,áno
+Mýtna,160,
+Mýtna Nová Ves,140,
+Nacina Ves,191,áno
+Nadabula,167,
+Neded,134,
+Nedožery,144,áno
+Nemecká,172,áno
+Nemšová,"123,124",
+Nezbudská Lúčka-Strečno,180,
+Nitra,140,áno
+Nitra zastávka,140,áno
+Nitrianske Pravno,144,áno
+Nižná,181,
+Nižná Myšľa,190,áno
+Nižná Slaná,167,
+Nižná Slaná obec,167,
+Nižné Ružbachy,185,áno
+Nižné Čabiny,191,
+Nižný Hrabovec,193,
+Nižný Kelčov,128,áno
+Nižný Skálnik,174,
+Nosice,120,
+Nová Baňa,150,
+Nová Lesná,183,áno
+Nová Maša,172,
+Nová Polianka,183,
+Nová Stráž,131,
+Nová Ves nad Žitavou,151,
+Nová Vieska,130,
+Nováky,140,áno
+Nové Košariská,131,áno
+Nové Mesto nad Váhom,"120,121",áno
+Nové Sady,142,
+Nové Zámky,"130,135,140,150,151",áno
+Nový Smokovec,183,áno
+Nálepkovo,173,áno
+Nálepkovo-Peklisko,173,áno
+Obišovce,188,áno
+Ochodnica,127,áno
+Ochtiná,166,
+Okoličná na Ostrove,131,
+Okoličné,180,áno
+Okoč,131,
+Olcnava,180,áno
+Ondrochov,140,
+Opatová pri Lučenci,162,áno
+Oravský Podzámok,181,áno
+Oravský Podzámok zastávka,181,áno
+Orechová Potôň,131,áno
+Orkucany,188,
+Orlov,188,
+Orávka,160,áno
+Oslany,140,áno
+Ostratice,143,
+Osuské,117,
+Oščadnica,127,áno
+Palárikovo,130,áno
+Paprad,121,áno
+Parchovany,192,
+Partizánske,140,áno
+Partizánske zastávka,140,áno
+Pastovce,153,
+Pavlovce,193,
+Pašková,166,
+Pekná Vyhliadka,184,áno
+Pernek pri Zohore,112,
+Petrovce nad Laborcom,191,
+Pezinok,120,áno
+Pezinok zastávka,120,áno
+Pečovská Nová Ves,188,
+Piešťany,120,áno
+Plavecké Podhradie,112,
+Plavecký Mikuláš,112,
+Plavecký Štvrtok,110,áno
+Plaveč,"185,188",áno
+Plavnica,185,
+Plevník-Drienové,120,
+Plešivec,"160,165,166",áno
+Pod lesom,183,áno
+Podbiel,181,
+Podbrezová,172,
+Podhorany pri Kežmarku,185,áno
+Podhorany pri Lužiankach,141,
+Podhájska,150,áno
+Podkriváň,160,
+Podolínec,185,áno
+Podrečany,160,áno
+Podtureň,180,áno
+Podunajské Biskupice,131,
+Podvysoká,128,áno
+Podzámčok,153,
+Pohorelská Maša,172,
+Pohorelá,172,áno
+Pohronská Polhora,174,
+Pohronský Ruskov,152,
+Polomka,172,
+Polomka-Hámor,172,
+Poltár,162,áno
+Poluvsie,126,
+Poprad-Spišská Sobota,185,
+Poprad-Tatry,"120,180,183, 185",áno
+Poprad-Tatry TEŽ,183,
+Popradské Pleso,183,áno
+Poriadie,121,áno
+Porúbka,126,
+Považany,120,áno
+Považská Bystrica,120,áno
+Považská Teplá,120,
+Pozba,150,áno
+Počkaj,168,
+Prakovce,173,áno
+Prakovce zastávka,173,áno
+Pravenec,144,áno
+Predajná,172,
+Predmier,120,
+Preseľany nad Nitrou zastávka,140,
+Prešov,"188,193,194",áno
+Prešov mesto,188,áno
+Pribeník,190,áno
+Pribeta,130,áno
+Priekopa,170,áno
+Prievidza,"140,144,145",áno
+Pruské,124,
+Príbovce-Rakovo,170,áno
+Prša,160,
+Psiare,150,
+Pstruša,160,
+Pusté Pole,188,áno
+Pusté Úľany,130,áno
+Pusté Čemerné,191,áno
+Párnica,181,áno
+Píla,160,
+Púchov,"120,125,180,",
+Púchov zastávka,125,
+Púchov závody,125,
+Radava,150,
+Radošina,142,
+Radvaň,170,áno
+Radvaň nad Laborcom,191,áno
+Radzovce,164,
+Rajec,126,
+Rajecké Teplice,126,
+Rakovec,173,áno
+Raková,128,áno
+Rapovce,161,áno
+Raslavice,194,áno
+Reca,130,áno
+Remäta,145,áno
+Revúca,165,áno
+Revúcka Lehota,165,áno
+Richnava,180,áno
+Riečka,160,áno
+Rimavská Baňa,174,
+Rimavská Píla,174,
+Rimavská Seč,160,
+Rimavská Sobota,174,
+Rimavské Brezovo,174,
+Rimavské Janovce,174,
+Rimavské Janovce obec,174,
+Rimavské Zalužany,174,
+Rišňovce,141,
+Rochovce,166,
+Rohožník,112,
+Rovinka,131,
+Roštár,166,
+Rožkovany,188,áno
+Rožňava,"160,167",áno
+Rožňava mesto,167,
+Rožňava predmestie,167,
+Rudina,127,áno
+Rudno nad Hronom,150,
+Ruskov,190,
+Ruskovce,143,áno
+Rusovce,132,
+Ružomberok,"120,180",áno
+Ružomberok-Rybárpole,180,áno
+Ružín,180,áno
+Rybany,143,áno
+Ráztočno,145,áno
+Sabinov,188,áno
+Sačurov,192,
+Sedliacka Dubová,181,
+Sedmerovec,124,
+Sekule,110,áno
+Senec,130,áno
+Senica,116,áno
+Sereď,133,áno
+Sečovce,192,
+Sečovská Polianka,192,
+Seňa,169,áno
+Sibír,183,áno
+Siladice,133,áno
+Skalica na Slovensku,114,
+Skalité,129,áno
+Skalité pod Poľanou,129,áno
+Skalité zastávka,129,áno
+Skalité-Kudlov,129,áno
+Skalité-Serafínov,129,áno
+Sklené pri Handlovej,145,
+Slanec,190,áno
+Slaná Lehota,162,áno
+Slatina,153,
+Slavec jaskyňa,160,
+Slavošovce,166,
+Slavošovce obec,166,
+Slepčany,151,
+Sliač kúpele,170,
+Slovenská Ľupča,172,
+Slovenská Ľupča-Príboj,172,
+Slovenské Nové Mesto,190,áno
+Sládkovičovo,130,
+Smižany,180,áno
+Smolenice,116,áno
+Snina,196,
+Snina mesto,196,áno
+Snina predmestie,196,áno
+Soblahov,143,áno
+Sološnica,112,
+Somotor,190,áno
+Soľ,193,
+Spišská Belá zastávka,185,áno
+Spišská Nová Ves,"120,180,186",áno
+Spišské Podhradie,187,áno
+Spišské Tomášovce,180,áno
+Spišské Vlachy,"180,187",áno
+Spišské Vlachy mesto,187,áno
+Spišský Štiavnik,180,áno
+Stakčín,196,áno
+Stankovany,180,áno
+Stanča,191,áno
+Stará Kremnička,171,
+Stará Lesná,184,áno
+Stará Turá,121,áno
+Stará Voda,173,áno
+Stará Ľubovňa,185,áno
+Starý Smokovec,"183,184",áno
+Staškov,128,áno
+Staškov zastávka,128,áno
+Stožok,160,
+Stratená,173,áno
+Streda nad Bodrogom,190,áno
+Strekov,130,
+Strelenka,125,
+Strážky zastávka,185,
+Strážske,"191,193",
+Studený Potok,185,áno
+Sukov,191,
+Sučany,180,áno
+Svinná,143,áno
+Svit,180,
+Svrčinovec,129,áno
+Svrčinovec zastávka,127,áno
+Svätý Jur,120,áno
+Sykavka,173,
+Sása-Pliešovce,153,
+Sľažany,141,
+Tatranská Lesná,184,
+Tatranská Lomnica,"184,185",áno
+Tatranská Lomnica TEŽ,184,
+Tatranská Lomnica zastávka,185,áno
+Tatranská Polianka,183,áno
+Tatranské Zruby,183,áno
+Tatranský Lieskovec,182,áno
+Tekovská Breznica,150,
+Tekovské Lužany,152,
+Tekovský Hrádok,152,
+Telgárt,173,áno
+Telgárt penzión,173,áno
+Teplička nad Hornádom,180,áno
+Teplička nad Váhom,180,
+Terany,153,
+Tesárske Mlyňany,151,
+Tešedíkovo,134,
+Tisovec,174,
+Tisovec mesto,174,
+Tisovec-Bánovo,174,
+Tlmače,150,áno
+Tomášovce,160,áno
+Toporec,185,áno
+Topoľnica,130,áno
+Topoľčany,140,
+Tornaľa,160,
+Trebejov,180,áno
+Trebišov,"190,191,192",áno
+Trebišov zastávka,192,
+Trenčianska Teplá,"120,122,123,124,180",áno
+Trenčianska Teplá obec,122,
+Trenčianska Teplá zastávka,122,
+Trenčianska Teplá ÚRT,122,
+Trenčianska Turná,143,áno
+Trenčianske Bohuslavice,120,áno
+Trenčianske Jastrabie,143,
+Trenčianske Teplice,122,áno
+Trenčianske Teplice sídlisko,122,
+Trenčianske Teplice zastávka,122,
+Trenčín,"120,143,180",
+Trenčín predmestie,143,áno
+Trenčín-Opatová,120,
+Trenčín-Zlatovce,120,áno
+Tretí Hámor,173,áno
+Trnava,"116,120,133",áno
+Trnava predmestie,116,
+Trnavá Hora,171,
+Trnovec nad Váhom,130,áno
+Trstená,181,
+Tulčík,194,áno
+Tupá,153,
+Turany,180,
+Turzovka,128,áno
+Turzovka zastávka,128,áno
+Turček,171,
+Turčianske Teplice,"170,171",áno
+Turňa nad Bodvou,160,áno
+Tvrdošovce,130,áno
+Tvrdošín,181,
+Udavské,191,áno
+Utekáč,162,áno
+Uľanka,170,
+Valaliky,169,áno
+Valaská,172,áno
+Vaniškovce,194,áno
+Varín,180,áno
+Vaďovce,121,áno
+Vaľkovňa,172,
+Važec,180,
+Veličná,181,áno
+Vernár,173,áno
+Veľaty,191,
+Veľká Ida,160,
+Veľká Lodina,180,áno
+Veľká Lomnica-Golf,185,áno
+Veľká Lúka,170,áno
+Veľká Paka,131,áno
+Veľká Ves,162,áno
+Veľké Bielice,140,áno
+Veľké Blahovo,131,áno
+Veľké Kapušany,195,
+Veľké Kapušany zastávka,195,
+Veľké Kostoľany,120,áno
+Veľké Kozmálovce,150,áno
+Veľké Leváre,110,
+Veľké Ripňany,142,
+Veľké Teriakovce,174,
+Veľké Uherce,140,áno
+Veľký Biel,130,áno
+Veľký Horeš,190,áno
+Veľký Kýr,140,
+Veľký Meder,131,
+Veľký Slavkov,183,
+Veľký Šariš,188,áno
+Vidová,160,áno
+Violín,136,
+Višňové,121,áno
+Vlachovo,167,
+Vlachovo obec,167,
+Vlkanová,170,áno
+Vlčany,134,
+Vojany,195,
+Vojčice,192,
+Volica,191,áno
+Volkovce,141,
+Voznica,150,
+Vranov nad Topľou,"192,192",
+Vranov nad Topľou predmestie,192,
+Vranov-Ortáše,192,
+Vranovské Dlhé,193,áno
+Vrbovce,121,áno
+Vrbovce zastávka,121,áno
+Vráble,151,
+Vrútky,"120,180,170",áno
+Vrútky nákladná stanica,180,
+Vydrník,180,áno
+Vysoká nad Kysucou,128,áno
+Vysoká pri Morave,113,áno
+Vysoká pri Morave zastávka,113,
+Vyškovce nad Ipľom,153,
+Vyšná Myšľa,190,áno
+Vyšné Hágy,183,áno
+Vyšné Čabiny,191,
+Vígľaš,160,
+Vítkovce,180,áno
+Východná,180,
+Výčapy-Opatovce,140,
+Včelínce,160,
+Zalaba,153,
+Zariečie,125,
+Zbehy,"140,141,142",
+Zbehy obec,141,áno
+Zbojská,174,
+Zbudské Dlhé,191,
+Zbyňov,126,áno
+Zelené,162,áno
+Zemianska Olča,131,
+Zemianske Kostoľany,140,áno
+Zlatno,162,áno
+Zlatná na Ostrove,131,
+Zlaté Moravce,"141,151",
+Zlaté Moravce závody,141,
+Zlaté Moravce-Prílepy,141,
+Zohor,"110,112,113",áno
+Zvolen mesto,170,áno
+Zvolen nákladná stanica,"160,170",
+Zvolen osobná stanica,"150,153,160,170,171",áno
+Zvolenská Slatina,160,áno
+Záhorská Ves,113,áno
+Závadka nad Hronom obec,172,
+Závadka nad Hronom zastávka,172,
+Závod,110,áno
+Úpor,191,áno
+Úľany nad Žitavou,"150,151",
+Čab-Sila,142,
+Čab-Sila zastávka,142,
+Čachtice,121,áno
+Čadca,"127,128,129",áno
+Čadca mesto,127,áno
+Čadca zastávka,128,áno
+Čakajovce,140,áno
+Čalovec,136,
+Čamovce,160,
+Čata,"152,153",
+Čaňa,169,áno
+Čerenčany,174,
+Čerhov,190,áno
+Červenica,188,áno
+Červená Skala,"172,173",
+České Brezovo,162,áno
+Čečejovce,160,
+Čeľovce,190,áno
+Čierna nad Tisou,190,áno
+Čierna nad Tisou zastávka,190,
+Čierne nad Topľou,193,áno
+Čierne pri Čadci,129,áno
+Čierne pri Čadci zastávka,129,áno
+Čierne-Polesie,129,áno
+Čirč,188,áno
+Čoltovo,160,áno
+Čremošné,170,
+Číž kúpele,160,
+Ďurková,188,áno
+Ľubiša,191,
+Ľubochňa,180,áno
+Ľubotín,188,áno
+Ľudovítov,130,áno
+Šahy,153,
+Šajdíkove Humence,116,áno
+Šalková,172,áno
+Šarišské Lúky,"193,194",áno
+Šarišské Michaľany,188,áno
+Šaľa,"130,134",áno
+Šaštín-Stráže,116,áno
+Šelpice,116,áno
+Šenkvice,120,áno
+Šiatorská Bukovinka,164,
+Šiba,194,
+Štrba,"120,180,182",áno
+Štrba OŽ,182,
+Štrba zastávka,180,áno
+Štrbské Pleso,"182,183,184",
+Štrbské Pleso OŽ,182,
+Štrkovec,160,
+Štítnik,166,
+Štítnik mesto,166,
+Štúrovo,"130,152",áno
+Šurany,"130,140,150,151",
+Šurany zastávka,"150,151,156",
+Švedlár,173,áno
+Švedlár zastávka,173,
+Švošov,180,áno
+Šášovské Podhradie,150,
+Šíd,160,áno
+Šúrovce,133,
+Šútovo-Ratkovo,180,áno
+Ťahanovce,180,áno
+Žabokreky nad Nitrou,140,áno
+Žakarovce,173,áno
+Žarnovica,150,
+Želiezovce,152,
+Žiar nad Hronom,150,
+Žiar nad Hronom zastávka,150,
+Žihárec,134,
+Žihárec zastávka,134,
+Žilina,"120,126,127,180",áno
+Žilina zariečie,126,áno
+Žilina-Solinky,126,áno
+Žirany,141,

@@ -1,0 +1,143 @@
+[
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R20",
+			"route_long_name": "Bratislava hl. st. - Devínska Nová Ves",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Devínska Nová Ves"],
+			["Devínska Nová Ves", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R50",
+			"route_long_name": "Bratislava hl. st. - Pezinok - Trnava",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Pezinok", "Trnava"],
+			["Trnava", "Pezinok", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R60",
+			"route_long_name": "Bratislava hl. st. - Galanta",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Galanta"],
+			["Galanta", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R70",
+			"route_long_name": "Bratislava hl. st. - Kvetoslavov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Nové Mesto", "Bratislava-Vrakuňa", "Podunajské Biskupice", "Rovinka", "Nové Košariská", "Miloslavov", "Kvetoslavov zastávka", "Kvetoslavov"],
+			["Kvetoslavov", "Kvetoslavov zastávka", "Miloslavov", "Nové Košariská", "Rovinka", "Podunajské Biskupice", "Bratislava-Vrakuňa", "Bratislava-Nové Mesto", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S8",
+			"route_long_name": "Bratislava-Nové Mesto - Bratislava-Rusovce",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava-Nové Mesto", "Bratislava-Petržalka", "Rusovce"],
+			["Rusovce", "Bratislava-Petržalka", "Bratislava-Nové Mesto"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S20",
+			"route_long_name": "Bratislava hl. st. - Malacky - Kúty",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Železná studienka", "Bratislava-Lamač", "Devínska Nová Ves", "Devínske Jazero", "Zohor", "Plavecký Štvrtok", "Malacky", "Veľké Leváre", "Závod", "Moravský Svätý Ján", "Sekule", "Kúty"],
+			["Kúty", "Sekule", "Moravský Svätý Ján", "Závod", "Veľké Leváre", "Malacky", "Plavecký Štvrtok", "Zohor", "Devínske Jazero", "Devínska Nová Ves", "Bratislava-Lamač", "Bratislava-Železná studienka", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S50",
+			"route_long_name": "Bratislava hl. st. - Pezinok - Trnava",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Bratislava-Rača", "Svätý Jur", "Pezinok-Grinava", "Pezinok", "Šenkvice", "Báhoň", "Cífer", "Trnava"],
+			["Trnava", "Cífer", "Báhoň", "Šenkvice", "Pezinok", "Pezinok-Grinava", "Svätý Jur", "Bratislava-Rača", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S60",
+			"route_long_name": "Bratislava hl. st. - Senec - Galanta",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Bratislava-Vajnory", "Ivanka pri Dunaji", "Bernolákovo", "Veľký Biel", "Senec", "Reca", "Pusté Úľany", "Sládkovičovo", "Galanta"],
+			["Galanta", "Sládkovičovo", "Pusté Úľany", "Reca", "Senec", "Veľký Biel", "Bernolákovo", "Ivanka pri Dunaji", "Bratislava-Vajnory", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S70",
+			"route_long_name": "Bratislava hl. st. - Kvetoslavov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava hlavná stanica", "Bratislava-Nové Mesto", "Bratislava-Vrakuňa", "Podunajské Biskupice", "Rovinka", "Nové Košariská", "Miloslavov", "Kvetoslavov zastávka", "Kvetoslavov"],
+			["Kvetoslavov", "Kvetoslavov zastávka", "Miloslavov", "Nové Košariská", "Rovinka", "Podunajské Biskupice", "Bratislava-Vrakuňa", "Bratislava-Nové Mesto", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S1",
+			"route_long_name": "Žilina – Predmier",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os", "REX"],
+		"identified_route_pattern": [
+			["Žilina", "Horný Hričov", "Dolný Hričov", "Bytča", "Predmier"],
+			["Predmier", "Bytča", "Dolný Hričov", "Horný Hričov", "Žilina"]
+		]
+	}
+]

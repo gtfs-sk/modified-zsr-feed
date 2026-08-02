@@ -1,0 +1,189 @@
+{
+	"trainCategories": [
+		{
+			"value": 1,
+			"name": "Os",
+			"description": "osobný vlak"
+		},
+		{
+			"value": 2,
+			"name": "RR",
+			"description": "Regionálny rýchlik"
+		},
+		{
+			"value": 4,
+			"name": "R",
+			"description": "rýchlik"
+		},
+		{
+			"value": 8,
+			"name": "IR",
+			"description": "IR"
+		},
+		{
+			"value": 16,
+			"name": "Ex",
+			"description": "expresný vlak"
+		},
+		{
+			"value": 32,
+			"name": "THALYS",
+			"description": "THALYS"
+		},
+		{
+			"value": 64,
+			"name": "EUROSTAR",
+			"description": "EUROSTAR"
+		},
+		{
+			"value": 128,
+			"name": "EUROSTARITALIA",
+			"description": "EUROSTARITALIA"
+		},
+		{
+			"value": 256,
+			"name": "CISALPINO",
+			"description": "CISALPINO"
+		},
+		{
+			"value": 512,
+			"name": "AVE",
+			"description": "AVE"
+		},
+		{
+			"value": 1024,
+			"name": "TALGO",
+			"description": "TALGO"
+		},
+		{
+			"value": 2048,
+			"name": "rj",
+			"description": "railjet"
+		},
+		{
+			"value": 4096,
+			"name": "IC",
+			"description": "InterCity"
+		},
+		{
+			"value": 8192,
+			"name": "SC",
+			"description": "SuperCity"
+		},
+		{
+			"value": 16384,
+			"name": "EC",
+			"description": "EuroCity"
+		},
+		{
+			"value": 32768,
+			"name": "ICE",
+			"description": "INTERCITYEXPRES"
+		},
+		{
+			"value": 65536,
+			"name": "TGV",
+			"description": "TGV"
+		},
+		{
+			"value": 131072,
+			"name": "EN",
+			"description": "EuroNight"
+		},
+		{
+			"value": 262144,
+			"name": "NZ",
+			"description": "NACHTZUG"
+		},
+		{
+			"value": 524288,
+			"name": "rjx",
+			"description": "railjet xpress"
+		},
+		{
+			"value": 2097152,
+			"name": "BUS",
+			"description": "BUS"
+		},
+		{
+			"value": 33554432,
+			"name": "HST",
+			"description": "High-speed train"
+		},
+		{
+			"value": 67108864,
+			"name": "Nez",
+			"description": "Neznámy vlak"
+		},
+		{
+			"value": 134217728,
+			"name": "ER",
+			"description": "EURegio"
+		},
+		{
+			"value": 268435456,
+			"name": "CJX",
+			"description": "CJX cityjet xpress"
+		},
+		{
+			"value": 536870912,
+			"name": "REX",
+			"description": "RegionalExpres"
+		},
+		{
+			"value": 1073741824,
+			"name": "NJ",
+			"description": "NJ Night Jet"
+		},
+		{
+			"value": 2147483648,
+			"name": "NT",
+			"description": "Night Train"
+		},
+		{
+			"value": 4294967296,
+			"name": "NLT",
+			"description": "Night Train Tolstoi"
+		},
+		{
+			"value": 8589934592,
+			"name": "EIC",
+			"description": "ExpressIC"
+		},
+		{
+			"value": 17179869184,
+			"name": "ICB",
+			"description": "InterCity Bus"
+		},
+		{
+			"value": 34359738368,
+			"name": "TLK",
+			"description": "TLK train"
+		},
+		{
+			"value": 68719476736,
+			"name": "EIP",
+			"description": "EIC Premium"
+		},
+		{
+			"value": 137438953472,
+			"name": "RB",
+			"description": "Regionalbahn"
+		},
+		{
+			"value": 274877906944,
+			"name": "RE",
+			"description": "Regional-Express"
+		},
+		{
+			"value": 549755813888,
+			"name": "Zr",
+			"description": "Zrýchlený vlak"
+		},
+		{
+			"value": 36028797018963968,
+			"name": "Peší prechod",
+			"description": "peší presun"
+		}
+	]
+}

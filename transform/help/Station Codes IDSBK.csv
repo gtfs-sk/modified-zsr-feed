@@ -1,0 +1,112 @@
+Názov železničnej stanice,Trať,Skrátený názov (do 20 znakov),Kód
+Báhoň,120,Báhoň,BHON
+Bernolákovo,130,Bernolákovo,BERN
+Bíňovce,116,Bíňovce,BINO
+Boleráz,116,Boleráz,BOLE
+Borský Mikuláš,116,Borský Mikuláš,BMIK
+Bratislava filiálka,100,BA filiálka,BAFI
+Bratislava hlavná stanica,100,Bratislava hl. st.,BAHL
+Bratislava predmestie,100,BA predmestie,BAPR
+Bratislava ÚNS,132,BA ÚNS,BAUN
+Bratislava východ,100,BA východ,BAVY
+Bratislava-Lamač,110,BA-Lamač,BALA
+Bratislava-Nové Mesto,100,BA-Nové Mesto,BANM
+Bratislava-Petržalka,132,BA-Petržalka,BAPE
+Bratislava-Rača,120,BA-Rača,BARA
+Bratislava-Vajnory,130,BA-Vajnory,BAVA
+Bratislava-Vinohrady,100,BA-Vinohrady,BAVI
+Bratislava-Vrakuňa,110,BA-Vrakuňa,BAVR
+Bratislava-Železná studienka,110,BA-Žel. studienka,BAZS
+Brestovany,120,Brestovany,BRES
+Brezová pod Bradlom,117,Brezová pod Bradlom,BBRA
+Brezová pod Bradlom zastávka,117,Brezová p. Bradlom z,BBRZ
+Brodské,110,Brodské,BROD
+Buková,116,Buková,BUKO
+Cerová-Lieskové,116,Cerová-Lieskové,CELI
+Cífer,120,Cífer,CIFE
+Devínska Nová Ves,110,BA-Devín. Nová Ves,BADN
+Devínske Jazero,110,BA-Devín. Jazero,BADJ
+Dolný Bar,131,Dolný Bar,DBAR
+Dolný Štál,131,Dolný Štál,DSTA
+Drahovce zastávka,120,Drahovce zastávka,DRAH
+Dunajská Streda,131,Dunajská Streda,DS
+Galanta,130,Galanta,GA
+Gáň,133,Gáň,GAN
+Gbely,114,Gbely,GBEL
+Gbely zastávka,114,Gbely zastávka,GBEZ
+Hlboké,116,Hlboké,HLBO
+Hlohovec,141,Hlohovec,HC
+Holíč nad Moravou,114,Holíč nad Moravou,HMOR
+Hradište pod Vrátnom,117,Hradište pod Vrátnom,HVRA
+Ivanka pri Dunaji,130,Ivanka pri Dunaji,IDUN
+Jablonica,116,Jablonica,JABN
+Jablonica obec,117,Jablonica obec,JABO
+Jablonové,112,Jablonové,JABL
+Kátov,114,Kátov,KATO
+Kľačany,141,Kľačany,KLAC
+Klčovany,116,Klčovany,KLCO
+Kopčany,114,Kopčany,KOPC
+Križovany nad Dudváhom,133,Križovany n. Dudváh.,KDUN
+Kuchyňa,112,Kuchyňa,KUCH
+Kuklov,116,Kuklov,KUKL
+Kútniky,131,Kútniky,KUTN
+Kúty,110,Kúty,KUTY
+Kvetoslavov,131,Kvetoslavov,KVET
+Kvetoslavov zastávka,131,Kvetoslavov zast.,KVEZ
+Labské Jazero zastávka,113,Labské Jazero zast.,LJAZ
+Lehnice,131,Lehnice,LEHN
+Leopoldov,120,Leopoldov,LEOP
+Leopoldov zastávka,141,Leopoldov zastávka,LEOZ
+Lozorno,112,Lozorno,LOZO
+Madunice,120,Madunice,MADU
+Malá Paka,131,Malá Paka,MPAK
+Malacky,110,Malacky,MA
+Michal na Ostrove,131,Michal na Ostrove,MOST
+Miloslavov,131,Miloslavov,MILO
+Moravský Svätý Ján,110,Moravský Svätý Ján,MJAN
+Nové Košariská,131,Nové Košariská,NKOS
+Okoč,131,Okoč,OKOC
+Orechová Potôň,131,Orechová Potôň,OPOT
+Osuské,117,Osuské,OSUS
+Pernek pri Zohore,112,Pernek,PERN
+Pezinok,120,Pezinok,PK
+Pezinok-Grinava,120,PK-Grinava,PKZA
+Piešťany,120,Piešťany,PN
+Plavecké Podhradie,112,Plavecké Podhradie,PPOD
+Plavecký Mikuláš,112,Plavecký Mikuláš,PMIK
+Plavecký Štvrtok,110,Plavecký Štvrtok,PSTV
+Podunajské Biskupice,131,BA-Podun. Biskupice,BAPB
+Pusté Úľany,130,Pusté Úľany,PULA
+Reca,130,Reca,RECA
+Rohožník,112,Rohožník,ROHO
+Rovinka,131,Rovinka,ROVI
+Rusovce,132,Rusovce,BARU
+Sekule,110,Sekule,SEKU
+Senec,130,Senec,SC
+Senica,116,Senica,SE
+Sereď,133,Sereď,SERE
+Siladice,133,Siladice,SILA
+Skalica na Slovensku,114,Skalica,SK
+Sládkovičovo,130,Sládkovičovo,SLAD
+Smolenice,116,Smolenice,SMOL
+Sološnica,112,Sološnica,SOLO
+Svätý Jur,120,Svätý Jur,SJUR
+Šajdíkove Humence,116,Šajdíkove Humence,SHUM
+Šaštín-Stráže,116,Šaštín-Stráže,SAST
+Šelpice,116,Šelpice,SELP
+Šenkvice,120,Šenkvice,SENK
+Šúrovce,133,Šúrovce,SURO
+Topoľnica,130,Topoľnica,TOPO
+Trnava,120,Trnava,TT
+Trnava predmestie,116,Trnava pred.,TTPR
+Veľká Paka,131,Veľká Paka,VPAK
+Veľké Blahovo,131,Veľké Blahovo,VBLA
+Veľké Kostoľany,120,Veľké Kostoľany,VKOS
+Veľké Leváre,110,Veľké Leváre,VLEV
+Veľký Biel,130,Veľký Biel,VBIE
+Veľký Meder,131,Veľký Meder,VMED
+Vysoká pri Morave,113,Vysoká pri Morave,VMOR
+Vysoká pri Morave zastávka,113,Vysoká p. Morave z.,VMOZ
+Záhorská Ves,113,Záhorská Ves,ZVES
+Závod,110,Závod,ZAVO
+Zohor,110,Zohor,ZOHO

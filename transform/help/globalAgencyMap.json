@@ -1,0 +1,30 @@
+{
+	"Železničná spoločnosť Slovensko, a.s.": {
+		"agency_id": "SK-35914939",
+		"agency_phone": "+421 24 48 58 188",
+		"agency_fare_url": "https://www.zssk.sk/cestovny-listok/",
+		"agency_code": "ZSSK"
+	},
+	"RegioJet,a.s.": {
+		"agency_id": "SK-47231271",
+		"agency_phone": "+421 2 2050 2020",
+		"agency_fare_url": "https://regiojet.sk/nase-listky/tarify-a-zlavy",
+		"agency_code": "RJSK"
+	},
+	"Leo Express s.r.o.": {
+		"agency_id": "CZ-06661572",
+		"agency_fare_url": "https://www.leoexpress.com/en/services/tickets-and-tariffs"
+	},
+	"Leo Express Slovensko s.r.o.": {
+		"agency_id": "SK-50085891",
+		"agency_fare_url": "https://www.leoexpress.com/en/services/tickets-and-tariffs"
+	},
+	"LTE Logistik a Transport Slovakia, s.r.o.": {
+		"agency_id": "SK-35845961",
+		"agency_name": "LTE Slovakia"
+	},
+	"Trenčianska elektrická železnica, n.o.": {
+		"agency_id": "SK-45740348",
+		"agency_fare_url": "https://trez.sk/cestovny-poriadok/cestovny-poriadok-a-tarifa/"
+	}
+}
