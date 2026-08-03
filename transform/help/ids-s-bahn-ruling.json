@@ -8,6 +8,7 @@
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsbk"
 		},
+		"identified_route_train_category": ["REX", "RRR"],
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Devínska Nová Ves"],
 			["Devínska Nová Ves", "Bratislava hlavná stanica"]
@@ -22,6 +23,7 @@
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsbk"
 		},
+		"identified_route_train_category": ["REX", "R", "RR"],
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Pezinok", "Trnava"],
 			["Trnava", "Pezinok", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
@@ -36,6 +38,7 @@
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsbk"
 		},
+		"identified_route_train_category": ["REX", "R", "RR"],
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Galanta"],
 			["Galanta", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
@@ -50,6 +53,7 @@
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsbk"
 		},
+		"identified_route_train_category": ["REX", "R", "RR", "Zr"],
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Bratislava-Nové Mesto", "Bratislava-Vrakuňa", "Podunajské Biskupice", "Rovinka", "Nové Košariská", "Miloslavov", "Kvetoslavov zastávka", "Kvetoslavov"],
 			["Kvetoslavov", "Kvetoslavov zastávka", "Miloslavov", "Nové Košariská", "Rovinka", "Podunajské Biskupice", "Bratislava-Vrakuňa", "Bratislava-Nové Mesto", "Bratislava hlavná stanica"]
@@ -138,6 +142,156 @@
 		"identified_route_pattern": [
 			["Žilina", "Horný Hričov", "Dolný Hričov", "Bytča", "Predmier"],
 			["Predmier", "Bytča", "Dolný Hričov", "Horný Hričov", "Žilina"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S2",
+			"route_long_name": "Žilina – Čadca – Skalité-Serafínov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_pattern": [
+			["Žilina", "Brodno", "Rudina", "Kysucké Nové Mesto", "Ochodnica", "Dunajov", "Krásno nad Kysucou", "Oščadnica", "Čadca mesto", "Čadca"],
+			["Čadca", "Čadca mesto", "Oščadnica", "Krásno nad Kysucou", "Dunajov", "Ochodnica", "Kysucké Nové Mesto", "Rudina", "Brodno", "Žilina"],
+			["Žilina", "Čadca"],
+			["Čadca", "Žilina"],
+			["Čadca", "Svrčinovec", "Čierne pri Čadci", "Čierne pri Čadci zastávka", "Čierne-Polesie", "Skalité zastávka", "Skalité"],
+			["Skalité", "Skalité zastávka", "Čierne-Polesie", "Čierne pri Čadci zastávka", "Čierne pri Čadci", "Svrčinovec", "Čadca"],
+			["Skalité", "Skalité pod Poľanou", "Skalité-Kudlov", "Skalité-Serafínov"],
+			["Skalité-Serafínov", "Skalité-Kudlov", "Skalité pod Poľanou", "Skalité"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S21",
+			"route_long_name": "Čadca  –  Makov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Čadca", "Čadca zastávka", "Raková-Zemanov", "Raková"],
+			["Raková", "Raková-Zemanov", "Čadca zastávka", "Čadca"],
+			["Čadca", "Čadca zastávka", "Raková"],
+			["Raková", "Čadca zastávka", "Čadca"],
+			["Raková", "Staškov zastávka", "Staškov", "Podvysoká", "Turzovka"],
+			["Turzovka", "Podvysoká", "Staškov", "Staškov zastávka", "Raková"],
+			["Turzovka", "Turzovka zastávka", "Vysoká nad Kysucou", "Nižný Kelčov", "Makov"],
+			["Makov", "Nižný Kelčov", "Vysoká nad Kysucou", "Turzovka zastávka", "Turzovka"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S3",
+			"route_long_name": "Žilina – Vrútky – Kraľovany – Ružomberok – Liptovský Mikuláš – Važec",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Žilina", "Varín", "Nezbudská Lúčka-Strečno", "Vrútky"],
+			["Vrútky", "Nezbudská Lúčka-Strečno", "Varín", "Žilina"],
+			["Vrútky", "Vrútky nákladná stanica", "Sučany", "Turany"],
+			["Turany", "Sučany", "Vrútky nákladná stanica", "Vrútky"],
+			["Turany", "Krpeľany", "Šútovo-Ratkovo", "Kraľovany"],
+			["Kraľovany", "Šútovo-Ratkovo", "Krpeľany", "Turany"],
+			["Kraľovany", "Stankovany", "Ľubochňa", "Švošov"],
+			["Švošov", "Ľubochňa", "Stankovany", "Kraľovany"],
+			["Švošov", "Hrboltová", "Ružomberok-Rybárpole", "Ružomberok"],
+			["Ružomberok", "Ružomberok-Rybárpole", "Hrboltová", "Švošov"],
+			["Ružomberok", "Lisková zastávka", "Liptovská Teplá", "Liptovské Vlachy", "Liptovský Mikuláš"],
+			["Liptovský Mikuláš", "Liptovské Vlachy", "Liptovská Teplá", "Lisková zastávka", "Ružomberok"],
+			["Liptovský Mikuláš", "Okoličné", "Podtureň", "Liptovský Hrádok"],
+			["Liptovský Hrádok", "Podtureň", "Okoličné", "Liptovský Mikuláš"],
+			["Liptovský Hrádok", "Kráľova Lehota", "Východná", "Važec"],
+			["Važec", "Východná", "Kráľova Lehota", "Liptovský Hrádok"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S4",
+			"route_long_name": "Žilina – Rajec",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Žilina", "Žilina-Záriečie", "Žilina-Solinky", "Bytčica", "Lietavská Lúčka", "Porúbka", "Poluvsie", "Rajecké Teplice", "Konská pri Rajci", "Zbyňov", "Kľače", "Rajec"],
+			["Rajec", "Kľače", "Zbyňov", "Konská pri Rajci", "Rajecké Teplice", "Poluvsie", "Porúbka", "Lietavská Lúčka", "Bytčica", "Žilina-Solinky", "Žilina-Záriečie", "Žilina"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S5",
+			"route_long_name": "Vrútky – Martin – Turčianske Teplice – Horná Štubňa",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Vrútky", "Priekopa", "Martin"],
+			["Martin", "Priekopa", "Vrútky"],
+			["Martin", "Košťany nad Turcom", "Príbovce-Rakovo", "Kláštor pod Znievom"],
+			["Kláštor pod Znievom", "Príbovce-Rakovo", "Košťany nad Turcom", "Martin"],
+			["Kláštor pod Znievom", "Jazernica", "Malý Čepčín", "Diviaky"],
+			["Diviaky", "Malý Čepčín", "Jazernica", "Kláštor pod Znievom"],
+			["Diviaky", "Turčianske Teplice"],
+			["Turčianske Teplice", "Diviaky"],
+			["Turčianske Teplice", "Horná Štubňa zastávka", "Horná Štubňa"],
+			["Horná Štubňa", "Horná Štubňa zastávka", "Turčianske Teplice"],
+			["Turčianske Teplice", "Horná Štubňa obec"],
+			["Horná Štubňa obec", "Turčianske Teplice"],
+			["Horná Štubňa", "Turček"],
+			["Turček", "Horná Štubňa"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S51",
+			"route_long_name": "Horná Štubňa – Sklené pri Handlovej",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Sklené pri Handlovej", "Horná Štubňa"],
+			["Horná Štubňa", "Sklené pri Handlovej"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S6",
+			"route_long_name": "Kraľovany – Trstená",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Kraľovany", "Kraľovany zastávka", "Párnica", "Istebné"],
+			["Istebné", "Párnica", "Kraľovany zastávka", "Kraľovany"],
+			["Istebné", "Veličná", "Dolný Kubín zastávka", "Dolný Kubín"],
+			["Dolný Kubín", "Dolný Kubín zastávka", "Veličná", "Istebné"],
+			["Dolný Kubín", "Mokraď", "Bziny", "Medzibrodie nad Oravou", "Oravský Podzámok"],
+			["Oravský Podzámok", "Medzibrodie nad Oravou", "Bziny", "Mokraď", "Dolný Kubín"],
+			["Oravský Podzámok", "Oravský Podzámok zastávka", "Horná Lehota", "Sedliacka Dubová", "Dlhá nad Oravou", "Krivá"],
+			["Krivá", "Dlhá nad Oravou", "Sedliacka Dubová", "Horná Lehota", "Oravský Podzámok zastávka", "Oravský Podzámok"],
+			["Krivá", "Podbiel", "Nižná", "Krásna Hôrka", "Tvrdošín", "Trstená"],
+			["Trstená", "Tvrdošín", "Krásna Hôrka", "Nižná", "Podbiel", "Krivá"]
 		]
 	}
 ]

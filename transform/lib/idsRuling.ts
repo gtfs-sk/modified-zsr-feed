@@ -44,9 +44,25 @@ export function findContiguousMatches(haystack: string[], needle: string[]): num
 	return starts
 }
 
+// Merges overlapping/touching [start, end] index ranges into the fewest disjoint ranges,
+// so a trip matching several adjacent ruling patterns (e.g. a chain of segments sharing a
+// boundary stop) yields one branded segment instead of one row per pattern.
+function mergeRanges(ranges: [number, number][]): [number, number][] {
+	if (ranges.length === 0) return []
+	const sorted = [...ranges].sort((a, b) => a[0] - b[0])
+	const merged: [number, number][] = [sorted[0]!]
+	for (const [start, end] of sorted.slice(1)) {
+		const last = merged[merged.length - 1]!
+		if (start <= last[1]) last[1] = Math.max(last[1], end)
+		else merged.push([start, end])
+	}
+	return merged
+}
+
 // Finds trips whose stop sequence matches an IDS ruling pattern and records the
 // matching segment as a branded-route overlay, without altering the trip itself.
-// Ruling entries that get at least one match gain a corresponding row in outputRoutes.
+// Adjacent/overlapping matches for the same trip + ruling are merged into a single
+// row. Ruling entries that get at least one match gain a corresponding row in outputRoutes.
 export function computeBrandedRouteOverlay(input: BrandedOverlayInput): BrandedOverlayRow[] {
 	const { feedId, trips, stopTimes, outputStops, outputRoutes, trainCategoryByRouteId, tripIdMap, stopIdMap, routeIdMap } = input
 
@@ -79,32 +95,38 @@ export function computeBrandedRouteOverlay(input: BrandedOverlayInput): BrandedO
 			const ruling = rulings[rulingIndex]!
 			if (ruling.identified_route_train_category && !ruling.identified_route_train_category.includes(category)) continue
 
+			const matchRanges: [number, number][] = []
 			for (const pattern of ruling.identified_route_pattern) {
 				for (const start of findContiguousMatches(stopNames, pattern)) {
-					if (!brandedRouteIdByRuling.has(rulingIndex)) {
-						const physicalRouteId = routeIdMap[trip.route_id] ?? trip.route_id
-						const physicalRoute = outputRouteById.get(physicalRouteId)
-						const brandedRouteId = `${feedId}-BRAND-${ruling.route.network_id}-${ruling.route.route_short_name}`
-						outputRoutes.push({
-							route_id: brandedRouteId,
-							agency_id: physicalRoute?.agency_id,
-							route_short_name: ruling.route.route_short_name,
-							route_long_name: ruling.route.route_long_name,
-							route_type: physicalRoute?.route_type ?? "2",
-							route_color: ruling.route.route_color,
-							route_text_color: ruling.route.route_text_color,
-							network_id: ruling.route.network_id,
-						})
-						brandedRouteIdByRuling.set(rulingIndex, brandedRouteId)
-					}
-
-					overlayRows.push({
-						trip_id: tripIdMap[trip.trip_id] ?? trip.trip_id,
-						from_stop_id: stopIdMap[stopTimeRows[start]!.stop_id] ?? stopTimeRows[start]!.stop_id,
-						to_stop_id: stopIdMap[stopTimeRows[start + pattern.length - 1]!.stop_id] ?? stopTimeRows[start + pattern.length - 1]!.stop_id,
-						applied_route_id: brandedRouteIdByRuling.get(rulingIndex)!,
-					})
+					matchRanges.push([start, start + pattern.length - 1])
 				}
+			}
+			if (matchRanges.length === 0) continue
+
+			for (const [start, end] of mergeRanges(matchRanges)) {
+				if (!brandedRouteIdByRuling.has(rulingIndex)) {
+					const physicalRouteId = routeIdMap[trip.route_id] ?? trip.route_id
+					const physicalRoute = outputRouteById.get(physicalRouteId)
+					const brandedRouteId = `${feedId}-BRAND-${ruling.route.network_id}-${ruling.route.route_short_name}`
+					outputRoutes.push({
+						route_id: brandedRouteId,
+						agency_id: physicalRoute?.agency_id,
+						route_short_name: ruling.route.route_short_name,
+						route_long_name: ruling.route.route_long_name,
+						route_type: physicalRoute?.route_type ?? "109",
+						route_color: ruling.route.route_color,
+						route_text_color: ruling.route.route_text_color,
+						network_id: ruling.route.network_id,
+					})
+					brandedRouteIdByRuling.set(rulingIndex, brandedRouteId)
+				}
+
+				overlayRows.push({
+					trip_id: tripIdMap[trip.trip_id] ?? trip.trip_id,
+					from_stop_id: stopIdMap[stopTimeRows[start]!.stop_id] ?? stopTimeRows[start]!.stop_id,
+					to_stop_id: stopIdMap[stopTimeRows[end]!.stop_id] ?? stopTimeRows[end]!.stop_id,
+					applied_route_id: brandedRouteIdByRuling.get(rulingIndex)!,
+				})
 			}
 		}
 	}
