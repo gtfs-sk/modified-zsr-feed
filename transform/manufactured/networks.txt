@@ -1,3 +1,0 @@
-network_id,network_name,network_url
-sk-idsbk,IDS BK,https://idsbk.sk
-sk-idsplus,IDS Plus,https://idsplus.sk

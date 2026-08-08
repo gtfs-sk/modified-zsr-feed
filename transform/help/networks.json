@@ -1,0 +1,12 @@
+[
+	{
+		"network_id": "sk-idsbk",
+		"network_name": "IDS BK",
+		"network_url": "https://idsbk.sk"
+	},
+	{
+		"network_id": "sk-idsplus",
+		"network_name": "IDS Plus",
+		"network_url": "https://idsplus.sk"
+	}
+]

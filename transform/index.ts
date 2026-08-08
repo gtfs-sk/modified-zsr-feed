@@ -6,6 +6,7 @@ import { Manipulate } from "../lib/Manipulate";
 import type { Route, Stop } from "../lib/types";
 import { isStopOnRequest } from "./lib/isStopOnRequest";
 import { getTrainCategoryStyle } from "./lib/trainCategoryStyle";
+import fs from "fs/promises"
 
 const m = new Manipulate({ feedId: "FEED_ZSR" })
 	.setupMetadata("trainMeta", {} as Record<string, { category: string; number: string }>)
@@ -145,6 +146,8 @@ const brandedRouteOverlay = computeBrandedRouteOverlay({
 	routeIdMap: m.keptMetadata.changedIdsMap.routes ?? {},
 })
 m.add("trip_branded_overlay", () => brandedRouteOverlay)
+let networks = JSON.parse(await fs.readFile("./transform/help/networks.json", "utf-8"))
+m.add("networks", () => networks)
 
 m.copy("calendar")
 m.copy("calendar_dates")
