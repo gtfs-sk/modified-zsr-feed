@@ -1,0 +1,109 @@
+name: "Build & Publish GTFS Feed"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs "at minute 1 past midnight" (see https://crontab.guru)
+    - cron: '1 0 * * *'
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check_hash.outputs.changed }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check if source feed changed
+        id: check_hash
+        run: |
+          SOURCE_URL="https://data.slovensko.sk/download?id=57827444-bb2e-4839-b1af-02241179a526"
+
+          CURRENT_HASH="$(curl -sL "$SOURCE_URL" | sha256sum | cut -d' ' -f1)"
+          echo "Current source hash: $CURRENT_HASH"
+
+          PUBLISHED_HASH="$(curl -sfL https://github.gtfs.sk/modified-zsr-feed/hash || true)"
+          echo "Published hash: $PUBLISHED_HASH"
+
+          echo "hash=$CURRENT_HASH" >> "$GITHUB_OUTPUT"
+
+          if [ "$CURRENT_HASH" != "$PUBLISHED_HASH" ] || [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "Source feed changed (or manual run) - rebuilding."
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Source feed unchanged - skipping rebuild."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Bun
+        if: steps.check_hash.outputs.changed == 'true'
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.2
+
+      - name: Install dependencies
+        if: steps.check_hash.outputs.changed == 'true'
+        run: bun install --frozen-lockfile
+
+      - name: Fetch source feed
+        if: steps.check_hash.outputs.changed == 'true'
+        run: bash fetch/script.sh
+
+      - name: Transform feed
+        if: steps.check_hash.outputs.changed == 'true'
+        run: bun run transform/index.ts
+
+      - name: Package GTFS feed
+        if: steps.check_hash.outputs.changed == 'true'
+        run: |
+          mkdir -p public
+          (cd data && zip -r ../public/gtfs.zip .)
+          echo -n "${{ steps.check_hash.outputs.hash }}" > public/hash
+
+      - name: Make HTML page
+        if: steps.check_hash.outputs.changed == 'true'
+        run: bunx gtfs-to-html --configPath ./keep/gtfs-to-html.config.json
+
+      - name: Upload feed artifact
+        if: steps.check_hash.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: gtfs-feed
+          path: public
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download feed artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: gtfs-feed
+          path: fragment
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'fragment'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,13 @@
+{
+	"agencies": [
+		{
+			"agencyKey": "feed",
+			"path": "./data"
+		}
+	],
+	"outputPath": "./public",
+	"outputFormat": "html",
+	"mapStyleUrl": "https://tiles.openfreemap.org/styles/bright",
+	"showMap": true,
+	"timeFormat": "hh:mm"
+}
