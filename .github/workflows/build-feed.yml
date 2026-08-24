@@ -30,10 +30,12 @@ jobs:
         run: |
           SOURCE_URL="https://data.slovensko.sk/download?id=57827444-bb2e-4839-b1af-02241179a526"
 
-          CURRENT_HASH="$(curl -sL "$SOURCE_URL" | sha256sum | cut -d' ' -f1)"
+          UA="gtfs-sk/1.0 (modified-zsr-feed, this bot checks for service avability +https://gtfs.sk/ua)"
+
+          CURRENT_HASH="$(curl -sL -A "$UA" "$SOURCE_URL" | sha256sum | cut -d' ' -f1)"
           echo "Current source hash: $CURRENT_HASH"
 
-          PUBLISHED_HASH="$(curl -sfL https://github.gtfs.sk/modified-zsr-feed/hash || true)"
+          PUBLISHED_HASH="$(curl -sfL -A "$UA" https://github.gtfs.sk/modified-zsr-feed/hash || true)"
           echo "Published hash: $PUBLISHED_HASH"
 
           echo "hash=$CURRENT_HASH" >> "$GITHUB_OUTPUT"
