@@ -349,6 +349,13 @@ export interface TripBrandedOverlay {
 	applied_route_id: string; // Relation to routes.route_id
 }
 
+// Own Extension
+export interface Universalization {
+	table_name: string;
+	old_id: string;
+	new_id: string;
+}
+
 // Mutable
 export type Mutable<T> = {
 	-readonly [K in keyof T]: T[K];
@@ -389,4 +396,5 @@ export interface GtfsFileMap {
 	feed_info:            FeedInfo;
 	attributions:         Attribution;
 	trip_branded_overlay: TripBrandedOverlay;
+	universalization:     Universalization;
 }

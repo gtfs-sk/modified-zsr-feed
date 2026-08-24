@@ -38,6 +38,7 @@ const primaryKeyFields: Record<CsvFile, (string[] | null)> = {
 	feed_info:            null,
 	attributions:         ["attribution_id"],
 	trip_branded_overlay: null,
+	universalization:     ["table_name", "old_id", "new_id"],
 };
 
 export function getPrimaryKey<K extends CsvFile>(file: K, row: GtfsFileMap[K]): string {

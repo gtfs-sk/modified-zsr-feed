@@ -11,19 +11,25 @@ import fs from "fs/promises"
 const m = new Manipulate({ feedId: "FEED_ZSR" })
 	.setupMetadata("trainMeta", {} as Record<string, { category: string; number: string }>)
 	.setupMetadata("onRequestStopIDList", [] as string[])
+	.setupMetadata("universalization", [] as { table_name: string; old_id: string; new_id: string }[])
 
-// Agency
-m.mapper("agency", (agency) => {
+// Agency — ids stay as published today; the branded/universal id is only recorded, not applied
+m.mapper("agency", (agency, meta) => {
 	if (Object.hasOwn(globalAgencyMap, agency.agency_name)) {
-		return Object.assign({}, agency, globalAgencyMap[agency.agency_name as keyof typeof globalAgencyMap])
+		const mapped = globalAgencyMap[agency.agency_name as keyof typeof globalAgencyMap]
+		if (mapped.agency_id && mapped.agency_id !== agency.agency_id) {
+			meta.universalization.push({ table_name: "agency", old_id: agency.agency_id ?? "", new_id: mapped.agency_id })
+		}
+		return { ...agency, ...mapped, agency_id: agency.agency_id }
 	}
-	return { ...agency, agency_id: `${m.feedId}-${agency.agency_id}` }
+	meta.universalization.push({ table_name: "agency", old_id: agency.agency_id ?? "", new_id: `${m.feedId}-${agency.agency_id}` })
+	return agency
 })
 
-// Stops
+// Stops — ids stay as published today; the UIC-prefixed id is only recorded, not applied
 m.mapper("stops", (stop, meta) => {
 	const changed = { ...stop }
-	changed.stop_id = `UIC-${stop.stop_id}`
+	meta.universalization.push({ table_name: "stops", old_id: stop.stop_id, new_id: `UIC-${stop.stop_id}` })
 	changed.wheelchair_boarding = isWheelchairAccessible(stop.stop_name ?? "") ? "1" : "0"
 
 	const osmData = getOSMStopByUIC(stop.stop_id)
@@ -52,7 +58,7 @@ const privateAgencyNames: Record<string, string> = {
 
 m.mapper("routes", (route, meta, i) => {
 	let result = { ...route }
-	result.agency_id = meta.changedIdsMap.agency?.[route.agency_id!] ?? `${m.feedId}-${route.route_id}`
+	result.agency_id = route.agency_id
 	result.route_id = `${m.feedId}-${i}`
 
 	const [_sh, trainCategory, trainNumber, routeName, secondaryNumber] = /(.{1,4}) (\d+) (?:(.*)? ?(\/\d+)?)/g.exec(`${route.route_short_name} ${route.route_long_name}`) ?? []
@@ -104,13 +110,12 @@ m.mapper("routes", (route, meta, i) => {
 	}
 })
 
-// Trips
+// Trips — id stays as published today; the branded id is only recorded, not applied
 m.mapper("trips", (trip, meta) => {
-	const tripId = `${m.feedId}-${trip.trip_id}`
+	meta.universalization.push({ table_name: "trips", old_id: trip.trip_id, new_id: `${m.feedId}-${trip.trip_id}` })
 	const trainMeta = meta.trainMeta[trip.route_id]
 	return {
 		...trip,
-		trip_id: tripId,
 		route_id: meta.changedIdsMap.routes?.[trip.route_id] ?? trip.route_id,
 		trip_short_name: trainMeta?.number ? `${trainMeta.category} ${trainMeta.number}` : trip.trip_short_name,
 	}
@@ -146,6 +151,7 @@ const brandedRouteOverlay = computeBrandedRouteOverlay({
 	routeIdMap: m.keptMetadata.changedIdsMap.routes ?? {},
 })
 m.add("trip_branded_overlay", () => brandedRouteOverlay)
+m.add("universalization", (meta) => meta.universalization)
 let networks = JSON.parse(await fs.readFile("./transform/help/networks.json", "utf-8"))
 m.add("networks", () => networks)
 

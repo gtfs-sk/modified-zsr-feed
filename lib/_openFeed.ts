@@ -12,7 +12,7 @@ import type {
 	Pathway, Level,
 	LocationGroup, LocationGroupStop, LocationsGeoJson, BookingRule,
 	Translation, FeedInfo, Attribution,
-	TripBrandedOverlay,
+	TripBrandedOverlay, Universalization,
 } from "./types.ts";
 
 export function _openFeed(dir: string) {
@@ -88,6 +88,7 @@ export function _openFeed(dir: string) {
 
 		// Generated overlays
 		get trip_branded_overlay() { return csv<TripBrandedOverlay>("trip_branded_overlay.txt"); },
+		get universalization()     { return csv<Universalization>("universalization.txt"); },
 	};
 }
 
