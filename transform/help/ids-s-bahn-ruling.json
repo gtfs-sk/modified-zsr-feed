@@ -133,15 +133,30 @@
 		"@comment": "",
 		"route": {
 			"route_short_name": "S1",
-			"route_long_name": "Žilina – Predmier",
+			"route_long_name": "Žilina – Považská Bystrica",
 			"route_color": "1756a2",
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsplus"
 		},
 		"identified_route_train_category": ["Os", "REX"],
 		"identified_route_pattern": [
-			["Žilina", "Horný Hričov", "Dolný Hričov", "Bytča", "Predmier"],
-			["Predmier", "Bytča", "Dolný Hričov", "Horný Hričov", "Žilina"]
+			["Žilina", "Horný Hričov", "Dolný Hričov", "Bytča", "Predmier", "Plevník-Drienové", "Považská Teplá", "Považská Bystrica"],
+			["Považská Bystrica", "Považská Teplá", "Plevník-Drienové", "Predmier", "Bytča", "Dolný Hričov", "Horný Hričov", "Žilina"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R50",
+			"route_long_name": "Žilina – Považská Bystrica",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Žilina", "Bytča", "Považská Bystrica"],
+			["Považská Bystrica", "Bytča", "Žilina"]
 		]
 	},
 	{
@@ -153,6 +168,7 @@
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsplus"
 		},
+		"identified_route_train_category": ["Os", "REX"],
 		"identified_route_pattern": [
 			["Žilina", "Brodno", "Rudina", "Kysucké Nové Mesto", "Ochodnica", "Dunajov", "Krásno nad Kysucou", "Oščadnica", "Čadca mesto", "Čadca"],
 			["Čadca", "Čadca mesto", "Oščadnica", "Krásno nad Kysucou", "Dunajov", "Ochodnica", "Kysucké Nové Mesto", "Rudina", "Brodno", "Žilina"],
@@ -162,6 +178,21 @@
 			["Skalité", "Skalité zastávka", "Čierne-Polesie", "Čierne pri Čadci zastávka", "Čierne pri Čadci", "Svrčinovec", "Čadca"],
 			["Skalité", "Skalité pod Poľanou", "Skalité-Kudlov", "Skalité-Serafínov"],
 			["Skalité-Serafínov", "Skalité-Kudlov", "Skalité pod Poľanou", "Skalité"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R2",
+			"route_long_name": "Žilina – Čadca",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["R", "EC"],
+		"identified_route_pattern": [
+			["Žilina", "Čadca"],
+			["Čadca", "Žilina"]
 		]
 	},
 	{
@@ -186,10 +217,10 @@
 		]
 	},
 	{
-		"@comment": "",
+		"@comment": "Runs parallel to S31 from Liptovsky Mikulas to Liptovsky Hradok. Using `Liptovské Vlachy` as a controll",
 		"route": {
 			"route_short_name": "S3",
-			"route_long_name": "Žilina – Vrútky – Kraľovany – Ružomberok – Liptovský Mikuláš – Važec",
+			"route_long_name": "Žilina – Vrútky – Kraľovany – Ružomberok – Liptovský Mikuláš – Liptovský Hrádok",
 			"route_color": "1756a2",
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsplus"
@@ -208,10 +239,40 @@
 			["Ružomberok", "Ružomberok-Rybárpole", "Hrboltová", "Švošov"],
 			["Ružomberok", "Lisková zastávka", "Liptovská Teplá", "Liptovské Vlachy", "Liptovský Mikuláš"],
 			["Liptovský Mikuláš", "Liptovské Vlachy", "Liptovská Teplá", "Lisková zastávka", "Ružomberok"],
-			["Liptovský Mikuláš", "Okoličné", "Podtureň", "Liptovský Hrádok"],
-			["Liptovský Hrádok", "Podtureň", "Okoličné", "Liptovský Mikuláš"],
-			["Liptovský Hrádok", "Kráľova Lehota", "Východná", "Važec"],
-			["Važec", "Východná", "Kráľova Lehota", "Liptovský Hrádok"]
+			["Liptovské Vlachy", "Liptovský Mikuláš", "Okoličné", "Podtureň", "Liptovský Hrádok"],
+			["Liptovský Hrádok", "Podtureň", "Okoličné", "Liptovský Mikuláš", "Liptovské Vlachy"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S31",
+			"route_long_name": "Liptovský Mikuláš – Važec",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Liptovský Mikuláš", "Okoličné", "Podtureň", "Liptovský Hrádok", "Kráľova Lehota", "Východná", "Važec"],
+			["Važec", "Východná", "Kráľova Lehota", "Liptovský Hrádok", "Podtureň", "Okoličné", "Liptovský Mikuláš"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R10",
+			"route_long_name": "Žilina – Liptovský Mikuláš",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["Ex"],
+		"identified_route_pattern": [
+			["Žilina", "Vrútky", "Kraľovany", "Ružomberok", "Liptovský Mikuláš"],
+			["Liptovský Mikuláš", "Ružomberok", "Kraľovany", "Vrútky", "Žilina"],
+			["Žilina", "Liptovský Mikuláš"],
+			["Liptovský Mikuláš", "Žilina"]
 		]
 	},
 	{
@@ -233,7 +294,7 @@
 		"@comment": "",
 		"route": {
 			"route_short_name": "S5",
-			"route_long_name": "Vrútky – Martin – Turčianske Teplice – Horná Štubňa",
+			"route_long_name": "Vrútky – Martin – Turčianske Teplice – Horná Štubňa – Turček – Kremnica",
 			"route_color": "1756a2",
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsplus"
@@ -253,7 +314,26 @@
 			["Turčianske Teplice", "Horná Štubňa obec"],
 			["Horná Štubňa obec", "Turčianske Teplice"],
 			["Horná Štubňa", "Turček"],
-			["Turček", "Horná Štubňa"]
+			["Turček", "Horná Štubňa"],
+			["Turček", "Kremnické Bane", "Kremnica"],
+			["Kremnica", "Kremnické Bane", "Turček"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R51",
+			"route_long_name": "Žilina – Vrútky – Horná Štubňa",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsplus"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Žilina", "Vrútky", "Martin", "Turčianske Teplice"],
+			["Turčianske Teplice", "Horná Štubňa"],
+			["Turčianske Teplice", "Martin", "Vrútky", "Žilina"],
+			["Horná Štubňa", "Turčianske Teplice"]
 		]
 	},
 	{
@@ -275,7 +355,7 @@
 		"@comment": "",
 		"route": {
 			"route_short_name": "S6",
-			"route_long_name": "Kraľovany – Trstená",
+			"route_long_name": "Kraľovany – Dolný Kubín – Trstená",
 			"route_color": "1756a2",
 			"route_text_color": "ffffff",
 			"network_id": "sk-idsplus"
