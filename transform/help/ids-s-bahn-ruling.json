@@ -26,7 +26,23 @@
 		"identified_route_train_category": ["REX", "R", "RR"],
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Pezinok", "Trnava"],
-			["Trnava", "Pezinok", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+			["Trnava", "Pezinok", "Bratislava-Vinohrady", "Bratislava hlavná stanica"],
+			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Bratislava-Rača", "Pezinok", "Šenkvice", "Cífer", "Trnava"],
+			["Trnava", "Cífer", "Šenkvice", "Pezinok", "Bratislava-Rača", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R55",
+			"route_long_name": "Bratislava-Nové Mesto - Pezinok - Trnava",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsbk"
+		},
+		"identified_route_pattern": [
+			["Bratislava-Nové Mesto", "Bratislava-Vinohrady", "Pezinok", "Trnava"],
+			["Trnava", "Pezinok", "Bratislava-Vinohrady", "Bratislava-Nové Mesto"]
 		]
 	},
 	{
@@ -41,7 +57,9 @@
 		"identified_route_train_category": ["REX", "R", "RR"],
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Galanta"],
-			["Galanta", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+			["Galanta", "Bratislava-Vinohrady", "Bratislava hlavná stanica"],
+			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Ivanka pri Dunaji", "Bernolákovo", "Senec", "Sládkovičovo", "Galanta"],
+			["Galanta", "Sládkovičovo", "Senec", "Bernolákovo", "Ivanka pri Dunaji", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
 		]
 	},
 	{
@@ -69,8 +87,10 @@
 			"network_id": "sk-idsbk"
 		},
 		"identified_route_pattern": [
-			["Bratislava-Nové Mesto", "Bratislava-Petržalka", "Rusovce"],
-			["Rusovce", "Bratislava-Petržalka", "Bratislava-Nové Mesto"]
+			["Bratislava-Nové Mesto", "Bratislava-Petržalka"],
+			["Bratislava-Petržalka", "Rusovce"],
+			["Bratislava-Petržalka", "Bratislava-Nové Mesto"],
+			["Rusovce", "Bratislava-Petržalka"]
 		]
 	},
 	{
@@ -98,7 +118,9 @@
 		},
 		"identified_route_pattern": [
 			["Bratislava hlavná stanica", "Bratislava-Vinohrady", "Bratislava-Rača", "Svätý Jur", "Pezinok-Grinava", "Pezinok", "Šenkvice", "Báhoň", "Cífer", "Trnava"],
-			["Trnava", "Cífer", "Báhoň", "Šenkvice", "Pezinok", "Pezinok-Grinava", "Svätý Jur", "Bratislava-Rača", "Bratislava-Vinohrady", "Bratislava hlavná stanica"]
+			["Trnava", "Cífer", "Báhoň", "Šenkvice", "Pezinok", "Pezinok-Grinava", "Svätý Jur", "Bratislava-Rača", "Bratislava-Vinohrady", "Bratislava hlavná stanica"],
+			["Bratislava-Nové Mesto", "Bratislava-Vinohrady", "Bratislava-Rača", "Svätý Jur", "Pezinok-Grinava", "Pezinok", "Šenkvice", "Báhoň", "Cífer", "Trnava"],
+			["Trnava", "Cífer", "Báhoň", "Šenkvice", "Pezinok", "Pezinok-Grinava", "Svätý Jur", "Bratislava-Rača", "Bratislava-Vinohrady", "Bratislava-Nové Mesto"]
 		]
 	},
 	{
