@@ -395,5 +395,457 @@
 			["Krivá", "Podbiel", "Nižná", "Krásna Hôrka", "Tvrdošín", "Trstená"],
 			["Trstená", "Tvrdošín", "Krásna Hôrka", "Nižná", "Podbiel", "Krivá"]
 		]
+	},
+	{
+		"@comment": "Pattern inferred from express-train stopping pattern on trať 120 (Košice-Kysak-Margecany-Spišská Nová Ves-Poprad-Tatry-Štrba); the matching \"10\" badge seen on trať 180 belongs to the IDS PLUS network's Štrba-Košice service, not an IDS Východ-tagged badge for this exact route.",
+		"route": {
+			"route_short_name": "R10",
+			"route_long_name": "Košice – Poprad-Tatry / Štrba",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R", "Ex"],
+		"identified_route_pattern": [
+			["Košice", "Kysak", "Margecany", "Spišská Nová Ves"],
+			["Spišská Nová Ves", "Margecany", "Kysak", "Košice"],
+			["Spišská Nová Ves", "Poprad-Tatry"],
+			["Poprad-Tatry", "Spišská Nová Ves"],
+			["Poprad-Tatry", "Štrba"],
+			["Štrba", "Poprad-Tatry"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R12",
+			"route_long_name": "Košice – Lipany (– Plaveč)",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Košice", "Kysak", "Prešov"],
+			["Prešov", "Kysak", "Košice"],
+			["Prešov", "Lipany", "Plaveč"],
+			["Plaveč", "Lipany", "Prešov"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R14",
+			"route_long_name": "Košice – Humenné",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Košice", "Košice predmestie", "Krásna nad Hornádom", "Nižná Myšľa", "Vyšná Myšľa", "Bohdanovce", "Ruskov", "Slanec", "Kalša", "Michaľany"],
+			["Michaľany", "Kalša", "Slanec", "Ruskov", "Bohdanovce", "Vyšná Myšľa", "Nižná Myšľa", "Krásna nad Hornádom", "Košice predmestie", "Košice"],
+			["Michaľany", "Trebišov"],
+			["Trebišov", "Michaľany"],
+			["Trebišov", "Bánovce nad Ondavou", "Michalovce", "Strážske"],
+			["Strážske", "Michalovce", "Bánovce nad Ondavou", "Trebišov"],
+			["Strážske", "Humenné"],
+			["Humenné", "Strážske"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R15",
+			"route_long_name": "Košice – Čierna nad Tisou",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Košice", "Košice predmestie"],
+			["Košice predmestie", "Košice"],
+			["Košice predmestie", "Krásna nad Hornádom", "Nižná Myšľa", "Vyšná Myšľa", "Bohdanovce", "Ruskov", "Slanec", "Kalša", "Kuzmice", "Michaľany"],
+			["Michaľany", "Kuzmice", "Kalša", "Slanec", "Ruskov", "Bohdanovce", "Vyšná Myšľa", "Nižná Myšľa", "Krásna nad Hornádom", "Košice predmestie"],
+			["Michaľany", "Čerhov", "Slovenské Nové Mesto", "Borša", "Streda nad Bodrogom", "Somotor", "Veľký Horeš", "Pribeník", "Dobrá", "Biel", "Čierna nad Tisou zastávka", "Čierna nad Tisou"],
+			["Čierna nad Tisou", "Čierna nad Tisou zastávka", "Biel", "Dobrá", "Pribeník", "Veľký Horeš", "Somotor", "Streda nad Bodrogom", "Borša", "Slovenské Nové Mesto", "Čerhov", "Michaľany"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R66",
+			"route_long_name": "Košice – Tornaľa",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Košice", "Moldava nad Bodvou mesto", "Moldava nad Bodvou"],
+			["Moldava nad Bodvou", "Moldava nad Bodvou mesto", "Košice"],
+			["Moldava nad Bodvou", "Turňa nad Bodvou", "Rožňava"],
+			["Rožňava", "Turňa nad Bodvou", "Moldava nad Bodvou"],
+			["Rožňava", "Plešivec", "Tornaľa"],
+			["Tornaľa", "Plešivec", "Rožňava"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R80",
+			"route_long_name": "Poprad-Tatry – Plaveč",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Poprad-Tatry", "Studený Potok", "Kežmarok", "Podolínec", "Stará Ľubovňa", "Plaveč"],
+			["Plaveč", "Stará Ľubovňa", "Podolínec", "Kežmarok", "Studený Potok", "Poprad-Tatry"]
+		]
+	},
+	{
+		"@comment": "Pattern inferred by analogy to the confirmed R92 stopping pattern; the Margecany-Kysak leg's stops are not directly confirmed against a specific train's timetable.",
+		"route": {
+			"route_short_name": "R91",
+			"route_long_name": "Margecany – Košice",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Margecany", "Kysak", "Košice"],
+			["Košice", "Kysak", "Margecany"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "R92",
+			"route_long_name": "Margecany – Prešov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Margecany", "Kysak", "Obišovce", "Ličartovce", "Drienovská Nová Ves obec", "Drienovská Nová Ves", "Kendice", "Haniska pri Prešove", "Prešov"],
+			["Prešov", "Haniska pri Prešove", "Kendice", "Drienovská Nová Ves", "Drienovská Nová Ves obec", "Ličartovce", "Obišovce", "Kysak", "Margecany"]
+		]
+	},
+	{
+		"@comment": "No dedicated R93 train service found in the 1.9.2026 timetable (trať 194 only shows S23-badged trains). Pattern combined from the confirmed S23 local stop list plus the Kysak-Prešov local connector used by R92/R93.",
+		"route": {
+			"route_short_name": "R93",
+			"route_long_name": "Košice – Bardejov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Košice", "Kysak", "Obišovce", "Ličartovce", "Drienovská Nová Ves obec", "Drienovská Nová Ves", "Kendice", "Haniska pri Prešove", "Prešov", "Šarišské Lúky", "Kapušany pri Prešove", "Fulianka", "Tulčík", "Demjata obec", "Raslavice", "Vaniškovce", "Bartošovce", "Hertník", "Šiba", "Kľušov", "Bardejov"],
+			["Bardejov", "Kľušov", "Šiba", "Hertník", "Bartošovce", "Vaniškovce", "Raslavice", "Demjata obec", "Tulčík", "Fulianka", "Kapušany pri Prešove", "Šarišské Lúky", "Prešov", "Haniska pri Prešove", "Kendice", "Drienovská Nová Ves", "Drienovská Nová Ves obec", "Ličartovce", "Obišovce", "Kysak", "Košice"]
+		]
+	},
+	{
+		"@comment": "No dedicated R94 train service found in the 1.9.2026 timetable (trať 193 and trať 196 only show S24- and S44-badged trains). Pattern combined from the confirmed S24 (Prešov-Humenné) and S44 (Humenné-Stakčín) local stop lists.",
+		"route": {
+			"route_short_name": "R94",
+			"route_long_name": "Prešov – Stakčín",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["R"],
+		"identified_route_pattern": [
+			["Prešov", "Šarišské Lúky", "Kapušany pri Prešove", "Lada", "Lipníky", "Pavlovce", "Hanušovce nad Topľou mesto", "Hanušovce nad Topľou", "Bystré", "Čierne nad Topľou", "Hlinné", "Soľ", "Komárany", "Vranov nad Topľou", "Vranovské Dlhé", "Hencovce", "Nižný Hrabovec", "Strážske", "Brekov", "Humenné", "Humenné mesto", "Hažín nad Cirochou", "Kamenica nad Cirochou", "Kamenica nad Cirochou dvor", "Modra nad Cirochou", "Dlhé nad Cirochou", "Dlhé nad Cirochou obec", "Belá nad Cirochou", "Snina predmestie", "Snina mesto", "Snina", "Stakčín"],
+			["Stakčín", "Snina", "Snina mesto", "Snina predmestie", "Belá nad Cirochou", "Dlhé nad Cirochou obec", "Dlhé nad Cirochou", "Modra nad Cirochou", "Kamenica nad Cirochou dvor", "Kamenica nad Cirochou", "Hažín nad Cirochou", "Humenné mesto", "Humenné", "Brekov", "Strážske", "Nižný Hrabovec", "Hencovce", "Vranovské Dlhé", "Vranov nad Topľou", "Komárany", "Soľ", "Hlinné", "Čierne nad Topľou", "Bystré", "Hanušovce nad Topľou", "Hanušovce nad Topľou mesto", "Pavlovce", "Lipníky", "Lada", "Kapušany pri Prešove", "Šarišské Lúky", "Prešov"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S1",
+			"route_long_name": "Košice – Poprad-Tatry",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os", "REX"],
+		"identified_route_pattern": [
+			["Košice", "Ťahanovce", "Kostoľany nad Hornádom", "Trebejov", "Kysak", "Veľká Lodina", "Malá Lodina", "Ružín", "Margecany zastávka", "Margecany"],
+			["Margecany", "Margecany zastávka", "Ružín", "Malá Lodina", "Veľká Lodina", "Kysak", "Trebejov", "Kostoľany nad Hornádom", "Ťahanovce", "Košice"],
+			["Margecany", "Kluknava", "Richnava", "Krompachy", "Spišské Vlachy", "Olcnava", "Vítkovce", "Chrast nad Hornádom", "Matejovce nad Hornádom", "Markušovce", "Teplička nad Hornádom", "Spišská Nová Ves"],
+			["Spišská Nová Ves", "Teplička nad Hornádom", "Markušovce", "Matejovce nad Hornádom", "Chrast nad Hornádom", "Vítkovce", "Olcnava", "Spišské Vlachy", "Krompachy", "Richnava", "Kluknava", "Margecany"],
+			["Spišská Nová Ves", "Smižany", "Spišské Tomášovce", "Letanovce", "Vydrník", "Spišský Štiavnik", "Gánovce", "Poprad-Tatry"],
+			["Poprad-Tatry", "Gánovce", "Spišský Štiavnik", "Vydrník", "Letanovce", "Spišské Tomášovce", "Smižany", "Spišská Nová Ves"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S2",
+			"route_long_name": "Telgárt – Margecany",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os", "REX"],
+		"identified_route_pattern": [
+			["Telgárt", "Telgárt penzión", "Vernár", "Dobšinská Ľadová Jaskyňa", "Stratená", "Dedinky", "Mlynky", "Mlynky zastávka", "Rakovec", "Sykavka", "Hnilec", "Nálepkovo-Peklisko", "Tretí Hámor", "Nálepkovo", "Stará Voda", "Švedlár", "Švedlár zastávka", "Mníšek nad Hnilcom", "Helcmanovce", "Prakovce", "Prakovce zastávka", "Gelnica zastávka", "Gelnica", "Gelnica mesto", "Zakarovce", "Jaklovce", "Margecany"],
+			["Margecany", "Jaklovce", "Zakarovce", "Gelnica mesto", "Gelnica", "Gelnica zastávka", "Prakovce zastávka", "Prakovce", "Helcmanovce", "Mníšek nad Hnilcom", "Švedlár zastávka", "Švedlár", "Stará Voda", "Nálepkovo", "Tretí Hámor", "Nálepkovo-Peklisko", "Hnilec", "Sykavka", "Rakovec", "Mlynky zastávka", "Mlynky", "Dedinky", "Stratená", "Dobšinská Ľadová Jaskyňa", "Vernár", "Telgárt penzión", "Telgárt"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S5",
+			"route_long_name": "Michaľany – Trebišov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Michaľany", "Lastovce", "Veľaty", "Stanča", "Úpor", "Trebišov"],
+			["Trebišov", "Úpor", "Stanča", "Veľaty", "Lastovce", "Michaľany"]
+		]
+	},
+	{
+		"@comment": "Local stop pattern reconstructed from the trať 160 station list (Plešivec-Rožňava-Moldava nad Bodvou-Košice); not individually verified against a specific local train's stop-by-stop times.",
+		"route": {
+			"route_short_name": "S6",
+			"route_long_name": "(Plešivec –) Rožňava – Moldava nad Bodvou (mesto) – Košice",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Plešivec", "Rožňava"],
+			["Rožňava", "Plešivec"],
+			["Rožňava", "Jovice", "Lipovník", "Jablonov nad Turňou", "Hrhov", "Dvorníky-Zádiel", "Turňa nad Bodvou", "Moldava nad Bodvou mesto", "Moldava nad Bodvou"],
+			["Moldava nad Bodvou", "Moldava nad Bodvou mesto", "Turňa nad Bodvou", "Dvorníky-Zádiel", "Hrhov", "Jablonov nad Turňou", "Lipovník", "Jovice", "Rožňava"],
+			["Moldava nad Bodvou", "Mokrance", "Čečejovce", "Cestice", "Veľká Ida", "Hutníky", "Haniska pri Košiciach", "Barca", "Košice predmestie", "Košice"],
+			["Košice", "Košice predmestie", "Barca", "Haniska pri Košiciach", "Hutníky", "Veľká Ida", "Cestice", "Čečejovce", "Mokrance", "Moldava nad Bodvou"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S8",
+			"route_long_name": "Poprad-Tatry – Stará Ľubovňa (– Plaveč)",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Poprad-Tatry", "Poprad-Spišská Sobota", "Matejovce pri Poprade", "Studený Potok", "Huncovce", "Kežmarok", "Kežmarok zastávka", "Kežmarok-Pradiareň", "Strážky zastávka", "Spišská Belá zastávka", "Bušovce", "Podhorany pri Kežmarku", "Toporec", "Podolínec", "Nižné Ružbachy", "Forbasy", "Stará Ľubovňa"],
+			["Stará Ľubovňa", "Forbasy", "Nižné Ružbachy", "Podolínec", "Toporec", "Podhorany pri Kežmarku", "Bušovce", "Spišská Belá zastávka", "Strážky zastávka", "Kežmarok-Pradiareň", "Kežmarok zastávka", "Kežmarok", "Huncovce", "Studený Potok", "Matejovce pri Poprade", "Poprad-Spišská Sobota", "Poprad-Tatry"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S11",
+			"route_long_name": "Košice – Čaňa",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Košice", "Košice predmestie", "Barca", "Valaliky", "Geča", "Čaňa"],
+			["Čaňa", "Geča", "Valaliky", "Barca", "Košice predmestie", "Košice"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S12",
+			"route_long_name": "Prešov – Košice",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Prešov", "Haniska pri Prešove", "Kendice", "Drienovská Nová Ves", "Drienovská Nová Ves obec", "Ličartovce", "Obišovce", "Kysak", "Trebejov", "Kostoľany nad Hornádom", "Ťahanovce", "Košice"],
+			["Košice", "Ťahanovce", "Kostoľany nad Hornádom", "Trebejov", "Kysak", "Obišovce", "Ličartovce", "Drienovská Nová Ves obec", "Drienovská Nová Ves", "Kendice", "Haniska pri Prešove", "Prešov"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S15",
+			"route_long_name": "Košice – Čierna nad Tisou",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Košice", "Košice predmestie", "Krásna nad Hornádom", "Nižná Myšľa", "Vyšná Myšľa", "Bohdanovce", "Ruskov", "Slanec", "Kalša", "Kuzmice", "Michaľany"],
+			["Michaľany", "Kuzmice", "Kalša", "Slanec", "Ruskov", "Bohdanovce", "Vyšná Myšľa", "Nižná Myšľa", "Krásna nad Hornádom", "Košice predmestie", "Košice"],
+			["Michaľany", "Čerhov", "Slovenské Nové Mesto", "Borša", "Streda nad Bodrogom", "Somotor", "Veľký Horeš", "Pribeník", "Dobrá", "Biel", "Čierna nad Tisou zastávka", "Čierna nad Tisou"],
+			["Čierna nad Tisou", "Čierna nad Tisou zastávka", "Biel", "Dobrá", "Pribeník", "Veľký Horeš", "Somotor", "Streda nad Bodrogom", "Borša", "Slovenské Nové Mesto", "Čerhov", "Michaľany"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S23",
+			"route_long_name": "Prešov – Bardejov",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Prešov", "Šarišské Lúky", "Kapušany pri Prešove", "Fulianka", "Tulčík", "Demjata obec", "Raslavice", "Vaniškovce", "Bartošovce", "Hertník", "Šiba", "Kľušov", "Bardejov"],
+			["Bardejov", "Kľušov", "Šiba", "Hertník", "Bartošovce", "Vaniškovce", "Raslavice", "Demjata obec", "Tulčík", "Fulianka", "Kapušany pri Prešove", "Šarišské Lúky", "Prešov"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S24",
+			"route_long_name": "Prešov – Humenné",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Prešov", "Šarišské Lúky", "Kapušany pri Prešove", "Lada", "Lipníky", "Pavlovce", "Hanušovce nad Topľou mesto", "Hanušovce nad Topľou", "Bystré", "Čierne nad Topľou", "Hlinné", "Soľ", "Komárany", "Vranov nad Topľou", "Vranovské Dlhé", "Hencovce", "Nižný Hrabovec", "Strážske", "Brekov", "Humenné"],
+			["Humenné", "Brekov", "Strážske", "Nižný Hrabovec", "Hencovce", "Vranovské Dlhé", "Vranov nad Topľou", "Komárany", "Soľ", "Hlinné", "Čierne nad Topľou", "Bystré", "Hanušovce nad Topľou", "Hanušovce nad Topľou mesto", "Pavlovce", "Lipníky", "Lada", "Kapušany pri Prešove", "Šarišské Lúky", "Prešov"]
+		]
+	},
+	{
+		"@comment": "Pattern is the Važec-Poprad-Tatry subset of the trať 180 local stop list, per Príloha 5's route boundary. The \"31\" badge observed in the timetable belongs to IDS PLUS's longer Liptovský Mikuláš-Poprad-Tatry variant, not a separately IDS Východ-tagged segment.",
+		"route": {
+			"route_short_name": "S31",
+			"route_long_name": "Važec – Poprad-Tatry",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Važec", "Štrba"],
+			["Štrba", "Važec"],
+			["Štrba", "Štrba zastávka", "Lučivná", "Svit", "Poprad-Tatry"],
+			["Poprad-Tatry", "Svit", "Lučivná", "Štrba zastávka", "Štrba"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S42",
+			"route_long_name": "Humenné – Medzilaborce mesto",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Humenné", "Humenné mesto", "Kochanovce", "Udavské", "Ľubiša", "Hankovce", "Koškovce", "Zbudské Dlhé", "Hrabovec nad Laborcom", "Radvaň nad Laborcom", "Volica", "Nižné Čabiny", "Vyšné Čabiny", "Sukov", "Monastyr", "Krásny Brod", "Medzilaborce", "Medzilaborce mesto"],
+			["Medzilaborce mesto", "Medzilaborce", "Krásny Brod", "Monastyr", "Sukov", "Vyšné Čabiny", "Nižné Čabiny", "Volica", "Radvaň nad Laborcom", "Hrabovec nad Laborcom", "Zbudské Dlhé", "Koškovce", "Hankovce", "Ľubiša", "Udavské", "Kochanovce", "Humenné mesto", "Humenné"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S44",
+			"route_long_name": "Humenné – Stakčín",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Humenné", "Humenné mesto", "Hažín nad Cirochou", "Kamenica nad Cirochou", "Kamenica nad Cirochou dvor", "Modra nad Cirochou", "Dlhé nad Cirochou", "Dlhé nad Cirochou obec", "Belá nad Cirochou", "Snina predmestie", "Snina mesto", "Snina", "Stakčín"],
+			["Stakčín", "Snina", "Snina mesto", "Snina predmestie", "Belá nad Cirochou", "Dlhé nad Cirochou obec", "Dlhé nad Cirochou", "Modra nad Cirochou", "Kamenica nad Cirochou dvor", "Kamenica nad Cirochou", "Hažín nad Cirochou", "Humenné mesto", "Humenné"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S77",
+			"route_long_name": "Spišská Nová Ves – Levoča",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Spišská Nová Ves", "Harichovce", "Levoča"],
+			["Levoča", "Harichovce", "Spišská Nová Ves"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S80",
+			"route_long_name": "Poprad-Tatry – Štrbské Pleso",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Poprad-Tatry", "Veľký Slavkov", "Nová Lesná", "Pod lesom", "Dolný Smokovec", "Starý Smokovec", "Nový Smokovec", "Sibír", "Tatranské Zruby", "Tatranská Polianka", "Danielov dom", "Nová Polianka", "Vyšné Hágy", "Popradské Pleso", "Štrbské Pleso"],
+			["Štrbské Pleso", "Popradské Pleso", "Vyšné Hágy", "Nová Polianka", "Danielov dom", "Tatranská Polianka", "Tatranské Zruby", "Sibír", "Nový Smokovec", "Starý Smokovec", "Dolný Smokovec", "Pod lesom", "Nová Lesná", "Veľký Slavkov", "Poprad-Tatry"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S82",
+			"route_long_name": "Štrba – Štrbské Pleso",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Štrba", "Tatranský Lieskovec", "Štrbské Pleso"],
+			["Štrbské Pleso", "Tatranský Lieskovec", "Štrba"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S85",
+			"route_long_name": "Starý Smokovec – Tatranská Lomnica",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Starý Smokovec", "Pekná Vyhliadka", "Horný Smokovec", "Tatranská Lesná", "Stará Lesná", "Tatranská Lomnica"],
+			["Tatranská Lomnica", "Stará Lesná", "Tatranská Lesná", "Horný Smokovec", "Pekná Vyhliadka", "Starý Smokovec"]
+		]
+	},
+	{
+		"@comment": "",
+		"route": {
+			"route_short_name": "S86",
+			"route_long_name": "Poprad-Tatry – Tatranská Lomnica",
+			"route_color": "1756a2",
+			"route_text_color": "ffffff",
+			"network_id": "sk-idsvychod"
+		},
+		"identified_route_train_category": ["Os"],
+		"identified_route_pattern": [
+			["Poprad-Tatry", "Poprad-Spišská Sobota", "Matejovce pri Poprade", "Studený Potok", "Veľká Lomnica-Golf", "Tatranská Lomnica zastávka", "Tatranská Lomnica"],
+			["Tatranská Lomnica", "Tatranská Lomnica zastávka", "Veľká Lomnica-Golf", "Studený Potok", "Matejovce pri Poprade", "Poprad-Spišská Sobota", "Poprad-Tatry"]
+		]
 	}
 ]

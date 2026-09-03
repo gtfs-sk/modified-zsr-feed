@@ -8,5 +8,10 @@
 		"network_id": "sk-idsplus",
 		"network_name": "IDS Plus",
 		"network_url": "https://idsplus.sk"
+	},
+	{
+		"network_id": "sk-idsvychod",
+		"network_name": "IDS Východ",
+		"network_url": "https://idsvychod.sk"
 	}
 ]
