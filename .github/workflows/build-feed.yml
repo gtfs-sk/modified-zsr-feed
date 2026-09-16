@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.check_hash.outputs.changed }}
+      hash: ${{ steps.check_hash.outputs.hash }}
 
     steps:
       - name: Checkout
@@ -66,27 +67,70 @@ jobs:
         if: steps.check_hash.outputs.changed == 'true'
         run: bun run transform/index.ts
 
-      - name: Package GTFS feed
+      - name: Upload pre-pfaedle artifact
         if: steps.check_hash.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pre-pfaedle
+          path: data
+
+  pfaedle:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/ad-freiburg/pfaedle:latest
+
+    steps:
+      - name: Download pre-pfaedle artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pre-pfaedle
+
+      - name: Download OSM extract
+        run: wget https://github.com/catenarytransit/osm-filter/releases/download/latest/railonly-europe-latest.osm.pbf
+
+      - name: Run pfaedle
+        run: pfaedle -x railonly-europe-latest.osm.pbf data -F --inplace --mots rail --drop-shapes true
+
+      - name: Upload pfaedled artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pfaedled
+          path: data
+
+  package:
+    needs: [build, pfaedle]
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ needs.build.outputs.changed }}
+
+    steps:
+      - name: Download pfaedled artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pfaedled
+          path: data
+
+      - name: Package GTFS feed
         run: |
           mkdir -p public
           (cd data && zip -r ../public/gtfs.zip .)
-          echo -n "${{ steps.check_hash.outputs.hash }}" > public/hash
+          echo -n "${{ needs.build.outputs.hash }}" > public/hash
 
 #     - name: Make HTML page
-#       if: steps.check_hash.outputs.changed == 'true'
 #       run: bunx gtfs-to-html --configPath ./keep/gtfs-to-html.config.json
 
       - name: Upload feed artifact
-        if: steps.check_hash.outputs.changed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: gtfs-feed
           path: public
 
   deploy:
-    needs: build
-    if: needs.build.outputs.changed == 'true'
+    needs: package
+    if: needs.package.outputs.changed == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
